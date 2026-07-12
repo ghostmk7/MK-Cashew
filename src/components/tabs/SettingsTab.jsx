@@ -10,7 +10,6 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
   const [rates, setRates] = useState([...storedRates]);
   const [defaultRate, setDefaultRate] = useState(settings?.defaultRate || storedRates[storedRates.length - 1]);
   const [openingBalances, setOpeningBalances] = useState(settings?.openingBalances || {});
-  const [openingRawBalances, setOpeningRawBalances] = useState(settings?.openingRawBalances || {});
   const [cashBookOpening, setCashBookOpening] = useState(settings?.cashBookOpening || 0);
   const [storePrices, setStorePrices] = useState(settings?.storePrices || { aLoneGyi: 67000, aChan: 52000, hteikKwe: 37200, khaKyo: 31200, chan2: 35000, chan3: 20000, aThayLone: 50000 });
   const [saved, setSaved] = useState(false);
@@ -42,11 +41,6 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
       const n = parseFloat(v);
       if (!isNaN(n)) cleanBalances[k] = n;
     });
-    const cleanRawBalances = {};
-    Object.entries(openingRawBalances).forEach(([k, v]) => {
-      const n = parseFloat(v);
-      if (!isNaN(n)) cleanRawBalances[k] = n;
-    });
     setStore(s => ({ 
       ...s, 
       settings: { 
@@ -54,7 +48,6 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
         rates: cleanRates, 
         defaultRate: finalDefault, 
         openingBalances: cleanBalances,
-        openingRawBalances: cleanRawBalances,
         cashBookOpening: parseFloat(cashBookOpening) || 0,
         storePrices,
         syncUrl
@@ -107,19 +100,15 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
     
     const lastDay = days[days.length - 1];
     const newOpeningBalances = {};
-    const newOpeningRawBalances = {};
     workers.forEach(w => {
       let change = 0;
-      let rawChange = 0;
       if (w.type === "peeler") {
         change = lastDay?.peelersComputed?.[w.id]?.changeForNextDay || 0;
-        rawChange = lastDay?.peelersComputed?.[w.id]?.rawChangeForNextDay || 0;
       }
       else if (w.type === "general") change = lastDay?.generalComputed?.[w.id]?.changeForNextDay || 0;
       else if (w.type === "divider") change = lastDay?.dividersComputed?.[w.id]?.changeForNextDay || 0;
       
       newOpeningBalances[w.id] = change;
-      if (w.type === "peeler") newOpeningRawBalances[w.id] = rawChange;
     });
 
     let newCashOpening = parseFloat(cashBookOpening) || 0;
@@ -135,13 +124,11 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
       settings: {
         ...s.settings,
         openingBalances: newOpeningBalances,
-        openingRawBalances: newOpeningRawBalances,
         cashBookOpening: newCashOpening
       }
     }));
     
     setOpeningBalances(newOpeningBalances);
-    setOpeningRawBalances(newOpeningRawBalances);
     setCashBookOpening(newCashOpening);
     alert("New month started successfully!");
   }
@@ -212,12 +199,6 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
               <span style={{ fontSize: 11, color: "#9A9A93", minWidth: 56 }}>{w.type}</span>
               <input type="number" value={openingBalances[w.id] ?? ""} onChange={e => setOpeningBalances(ob => ({ ...ob, [w.id]: e.target.value }))} placeholder="0" style={{ ...ST.addInput, maxWidth: 130 }} />
               <span style={{ fontSize: 12, color: "#6E7079", minWidth: 40 }}>MMK</span>
-              {w.type === "peeler" && (
-                <>
-                  <input type="number" value={openingRawBalances[w.id] ?? ""} onChange={e => setOpeningRawBalances(ob => ({ ...ob, [w.id]: e.target.value }))} placeholder="0" style={{ ...ST.addInput, maxWidth: 90 }} />
-                  <span style={{ fontSize: 12, color: "#6E7079" }}>Raw viss</span>
-                </>
-              )}
             </div>
           ))}
         </div>

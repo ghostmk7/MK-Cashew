@@ -50,12 +50,9 @@ export function calcPeelerRow(raw, carryOver, settings) {
 
 export function computeAll(rawDays, workers, settings) {
   const openingBalances = settings?.openingBalances || {};
-  const openingRawBalances = settings?.openingRawBalances || {};
   const workerBalances = {};
-  const workerRawBalances = {};
   workers.forEach(w => {
     workerBalances[w.id] = parseFloat(openingBalances[w.id]) || 0;
-    workerRawBalances[w.id] = parseFloat(openingRawBalances[w.id]) || 0;
   });
 
   return rawDays.map(day => {
@@ -72,15 +69,8 @@ export function computeAll(rawDays, workers, settings) {
         const calc = calcPeelerRow(raw, carryOver, settings);
         const paid = parseFloat(raw.amountPaid);
         const changeForNextDay = !isNaN(paid) ? calc.payrollAmount - paid : calc.payrollAmount;
-
-        const rawCarryIn = workerRawBalances[id] || 0;
-        const taken = parseFloat(raw.rawMaterialTaken) || 0;
-        const isPaid = !isNaN(paid) && paid > 0;
-        const rawChangeForNextDay = (isPaid ? 0 : rawCarryIn) + taken;
-
-        peelersComputed[id] = { ...raw, carryOver, ...calc, changeForNextDay, rawCarryIn, rawChangeForNextDay };
+        peelersComputed[id] = { ...raw, carryOver, ...calc, changeForNextDay };
         workerBalances[id] = changeForNextDay;
-        workerRawBalances[id] = rawChangeForNextDay;
       } else if (w.type === "general") {
         const raw = day.general[id] || {};
         const isPresent = !!raw.present;

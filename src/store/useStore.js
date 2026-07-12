@@ -17,7 +17,6 @@ function loadState() {
       defaultRate: 3000, 
       rates: [2400, 2700, 3000], 
       openingBalances: {},
-      openingRawBalances: {},
       cashBookOpening: 0,
       storePrices: { aLoneGyi: 67000, aChan: 52000, hteikKwe: 372000, khaKyo: 312000, chan2: 35000, chan3: 20000, aThayLone: 50000 }
     } 
