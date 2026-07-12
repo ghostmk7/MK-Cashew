@@ -3,6 +3,7 @@ import { ST } from '../../utils/styles';
 import { fmt } from '../../utils/formatting';
 import { emptyDay } from '../../utils/calculations';
 import { pushToCloud, pullFromCloud } from '../../utils/syncService';
+import { exportPeelersToCsv } from '../../utils/exportToCsv';
 
 export function SettingsTab({ settings, workers, auditLog, setStore, store, days }) {
   const storedRates = settings?.rates?.length ? settings.rates : [2400, 2700, 3000];
@@ -157,6 +158,14 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
         <div style={{ ...ST.note, marginTop: 0, marginBottom: 12 }}>Automatically calculate all final balances and start a fresh month.</div>
         <button style={{ ...ST.btnGhost, color: "#C0392B", border: "1px solid #C0392B" }} onClick={startNewMonth}>
           Start New Month
+        </button>
+      </div>
+
+      <div style={{ marginBottom: 20, borderTop: "1px solid #E4E4E0", paddingTop: 18 }}>
+        <div style={{ fontWeight: 600, fontSize: 14, marginBottom: 10 }}>Export Data</div>
+        <div style={{ ...ST.note, marginTop: 0, marginBottom: 12 }}>Download your production data as a spreadsheet (CSV) that you can open in Excel.</div>
+        <button style={{ ...ST.btnGhost, border: "1px solid #0B6E4F", color: "#0B6E4F" }} onClick={() => exportPeelersToCsv(days, workers)}>
+          Export Peelers Data to CSV
         </button>
       </div>
 
