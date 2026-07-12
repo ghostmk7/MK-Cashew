@@ -16,7 +16,7 @@ export function StoreTab({ days, settings, onEditDayLevel, isMobile }) {
   const keys = Object.keys(labels);
   return (
     <div style={ST.card2}>
-      <h3 style={ST.cardTitle}>Store Transfer (Monthly)</h3>
+      <h3 style={ST.cardTitle}>Store Transfer (Daily Ledger)</h3>
       {isMobile ? (
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           {days.map((d, dayIdx) => {

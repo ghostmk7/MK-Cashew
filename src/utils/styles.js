@@ -12,7 +12,7 @@ export const ST = {
   dayChip: { flexShrink: 0, padding: "6px 12px", borderRadius: 20, border: "1px solid #E4E4E0", background: "#fff", color: "#6E7079", fontSize: 12.5, fontFamily: "'IBM Plex Mono', monospace", cursor: "pointer" },
   dayChipActive: { background: "#0B6E4F", borderColor: "#0B6E4F", color: "#fff" },
   tabBar: { display: "flex", borderTop: "1px solid #E4E4E0", gap: 4, padding: "0", overflowX: "auto" },
-  tabBtn: { padding: "10px 18px", background: "none", border: "none", borderBottom: "2px solid transparent", color: "#6E7079", fontWeight: 600, fontSize: 13, cursor: "pointer", whiteSpace: "nowrap" },
+  tabBtn: { padding: "10px 18px", background: "none", border: "none", borderBottom: "2px solid transparent", color: "#6E7079", fontWeight: 600, fontSize: 13, cursor: "pointer", whiteSpace: "nowrap", outline: "none", WebkitTapHighlightColor: "transparent" },
   tabBtnActive: { color: "#0B6E4F", borderBottomColor: "#0B6E4F" },
   main: { padding: "16px 20px 60px", maxWidth: 1100, margin: "0 auto" },
 

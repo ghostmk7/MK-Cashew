@@ -156,7 +156,7 @@ export default function App() {
         )}
 
         {tab === "settings" && (
-          <SettingsTab settings={settings} workers={workers} auditLog={auditLog} setStore={setStore} updateWorker={updateWorker} addWorker={addWorker} />
+          <SettingsTab settings={settings} workers={workers} auditLog={auditLog} setStore={setStore} days={days} />
         )}
       </main>
 
