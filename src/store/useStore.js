@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { emptyDay, today, computeAll, SEED_WORKERS } from '../utils/calculations';
+import { pushToCloud } from '../utils/syncService';
 
 const STORAGE_KEY = "cashew_payroll_v4";
 
@@ -33,12 +34,26 @@ export function useStore() {
   const [pendingEdit, setPendingEdit] = useState(null);
   const [mobileEditWorker, setMobileEditWorker] = useState(null);
   const [selectedMonth, setSelectedMonth] = useState(() => store.rawDays[store.rawDays.length - 1]?.date.slice(0, 7) || today().slice(0, 7));
+  const [globalSyncStatus, setGlobalSyncStatus] = useState("");
 
-  // Debounced Save
+  // Debounced Local Save & Auto-Sync
   useEffect(() => {
     const timeout = setTimeout(() => {
       try { localStorage.setItem(STORAGE_KEY, JSON.stringify(store)); } catch {}
-    }, 500);
+      
+      // Auto-sync to cloud if URL exists
+      if (store.settings?.syncUrl) {
+        setGlobalSyncStatus("Saving...");
+        pushToCloud(store.settings.syncUrl, store).then(res => {
+          if (res.success) {
+            setGlobalSyncStatus("Saved to cloud");
+            setTimeout(() => setGlobalSyncStatus(""), 3000);
+          } else {
+            setGlobalSyncStatus("Sync failed");
+          }
+        });
+      }
+    }, 1000);
     return () => clearTimeout(timeout);
   }, [store]);
 
@@ -175,6 +190,7 @@ export function useStore() {
     selectedMonth, setSelectedMonth,
     workers, rawDays, auditLog, settings,
     activeRates, days, months, day, isPastDay, dayIsUnlocked, activeWorkers,
-    requestEdit, applyEdit, confirmPending, requestEditDayLevel, applyEditDayLevel, addNewDay
+    requestEdit, applyEdit, confirmPending, requestEditDayLevel, applyEditDayLevel, addNewDay,
+    globalSyncStatus
   };
 }

@@ -31,7 +31,8 @@ export default function App() {
     selectedMonth, setSelectedMonth,
     workers, rawDays, auditLog, settings,
     activeRates, days, months, day, isPastDay, dayIsUnlocked, activeWorkers,
-    requestEdit, applyEdit, confirmPending, requestEditDayLevel, applyEditDayLevel, addNewDay
+    requestEdit, applyEdit, confirmPending, requestEditDayLevel, applyEditDayLevel, addNewDay,
+    globalSyncStatus
   } = useStore();
 
   const isMobile = useIsMobile();
@@ -68,7 +69,10 @@ export default function App() {
               <div style={ST.brand}>MK Cashew</div>
               <div style={ST.brandSub}>Daily Payroll & Production</div>
             </div>
-            <button style={ST.newDayBtn} onClick={addNewDay}>+ New Day</button>
+            <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+              {globalSyncStatus && <div style={{ fontSize: 12, color: "#9A9A93" }}>{globalSyncStatus}</div>}
+              <button style={ST.newDayBtn} onClick={addNewDay}>+ New Day</button>
+            </div>
           </div>
 
           <div style={ST.dayNav}>

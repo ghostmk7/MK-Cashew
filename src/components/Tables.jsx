@@ -2,7 +2,7 @@ import { useState, Fragment } from 'react';
 import { ST } from '../utils/styles';
 import { NumInput } from './Inputs';
 import { fmt, fmtKg, fmtPct } from '../utils/formatting';
-import { getPctColor, RawTakenNote } from './Helpers';
+import { getPctColor, RawTakenNote, Overlay } from './Helpers';
 
 export function PeelerTable({ workers, computed, rates, onEdit }) {
   return (
