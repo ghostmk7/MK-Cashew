@@ -84,21 +84,21 @@ export function EntryTab({
           
           <div style={{ ...ST.card2, marginTop: 24 }}>
             <h3 style={ST.cardTitle}>Divider Production (Day Total)</h3>
-            <div style={{ display: "flex", gap: 16 }}>
-              <div>
+            <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+              <div style={{ flex: "1 1 140px" }}>
                 <div style={ST.mobileLabel}>Fulls (viss)</div>
                 <FormulaInput 
                   value={day.dividerProduction?.fulls ?? ""} 
                   onCommit={val => requestEditDayLevel(activeDayIdx, "dividerProduction", "fulls", val, "Divider Production")} 
-                  w={180}
+                  w="100%"
                 />
               </div>
-              <div>
+              <div style={{ flex: "1 1 140px" }}>
                 <div style={ST.mobileLabel}>Halfs (viss)</div>
                 <FormulaInput 
                   value={day.dividerProduction?.halfs ?? ""} 
                   onCommit={val => requestEditDayLevel(activeDayIdx, "dividerProduction", "halfs", val, "Divider Production")} 
-                  w={180}
+                  w="100%"
                 />
               </div>
             </div>

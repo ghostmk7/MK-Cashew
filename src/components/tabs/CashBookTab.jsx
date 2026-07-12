@@ -108,8 +108,8 @@ export function AddCashBookEntry({ dayIdx, currentEntries, onEditDayLevel }) {
   }
 
   return (
-    <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-      <input style={{ ...ST.input, textAlign: "left" }} placeholder="Description" value={desc} onChange={e => setDesc(e.target.value)} />
+    <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
+      <input style={{ ...ST.input, textAlign: "left", flex: "1 1 120px" }} placeholder="Description" value={desc} onChange={e => setDesc(e.target.value)} />
       <select style={ST.input} value={type} onChange={e => setType(e.target.value)}>
         <option value="in">Cash In</option>
         <option value="out">Cash Out</option>

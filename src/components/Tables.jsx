@@ -263,7 +263,6 @@ export function MobileEditModal({ worker, section, day, rates, onClose, onEdit }
   const fieldsBySection = {
     peeler: [
       ["amountTaken", "Amount Taken (viss)"],
-      ["rawMaterialTaken", "Raw Taken (viss)"],
       ["alonePlusAwarLone", "Alone + Awar Lone (viss)"],
       ["grade1Gotten", "Grade 1 Gotten (viss)"],
       ["rotten", "Rotten (viss)"],
@@ -285,6 +284,9 @@ export function MobileEditModal({ worker, section, day, rates, onClose, onEdit }
             {section === "peeler" && (
               <div style={ST.mobileModalMeta}>
                 Carry in: {fmt(row.carryOver)} · Payroll: {fmt(row.payrollAmount)} MMK
+                <div style={{ marginTop: 6 }}>
+                  <RawTakenNote value={row.rawMaterialTaken ?? ""} onCommit={v => onEdit("rawMaterialTaken", v)} />
+                </div>
               </div>
             )}
           </div>

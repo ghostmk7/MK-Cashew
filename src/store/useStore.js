@@ -77,11 +77,6 @@ export function useStore() {
         const oldVal = oldRow[field];
         bucket[workerId] = { ...oldRow, [field]: value };
 
-        // Auto-fill amountTaken if rawMaterialTaken is entered and amountTaken is empty
-        if (field === "rawMaterialTaken" && value && (!oldRow.amountTaken)) {
-          bucket[workerId].amountTaken = value;
-        }
-
         if (String(oldVal ?? "") !== String(value ?? "")) {
           nextAuditLog = [
             {
