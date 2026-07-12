@@ -1,0 +1,1618 @@
+﻿
+======================================================================
+FILE: Peeling July 2026.xlsx
+======================================================================
+
+  --- Sheet: '1st Week' (rows=1000, cols=26) ---
+    Date | 2026-07-01 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 8.5 | 6.35 | 5.56 | 0.3 | =C3-F3 | =D3/G3 |  | 147.5 | =(G3*I3)+J3 | -520.0 | =K3-L3
+    1.07 | Nu Nu Win | 11.1 | 8.7 | 7.95 | 0.36 | =C4-F4 | =D4/G4 | 3000.0 | 49134.0 | =(G4*I4)+J4 |  | =K4-L4
+    0.96 | Mi Tayy | 7.4 | 5.95 | 5.35 | 0.15 | =C5-F5 | =D5/G5 | 3000.0 | 35953.0 | =(G5*I5)+J5 |  | =K5-L5
+    0.865 | Kaung Khant | 8.05 | 6.35 | 5.56 | 0.3 | =C6-F6 | =D6/G6 | 3000.0 | 470.0 | =(G6*I6)+J6 | 23000.0 | =K6-L6
+    0.885 | Than Cho |  |  |  |  | =C7-F7 | =D7/G7 |  | 81.0 | =(G7*I7)+J7 |  | =K7-L7
+     | Thel Thel | 14.5 | 10.78 | 9.68 | 0.44 | =C8-F8 | =D8/G8 | 3000.0 | 38.0 | =(G8*I8)+J8 | 42000.0 | =K8-L8 | 15.0
+    0.85 | War War Tun |  |  |  |  | =C9-F9 | =D9/G9 |  | 360.0 | =(G9*I9)+J9 |  | =K9-L9
+    0.93 | Ma Ni Sander |  |  |  |  | =C10-F10 | =D10/G10 |  | -275.0 | =(G10*I10)+J10 |  | =K10-L10
+    0.96 | Khin May Sann | 6.1 | 4.85 | 4.1 | 0.1 | =C11-F11 | =D11/G11 | 3000.0 | 447.0 | =(G11*I11)+J11 | 18000.0 | =K11-L11
+    0.815 | Naing Naing Win |  |  |  |  | =C12-F12 | =D12/G12 |  | 649.0 | =(G12*I12)+J12 |  | =K12-L12
+     |  |  |  |  |  | =C13-F13 | =D13/G13 |  | 0.0 | =(G13*I13)+J13 |  | =K13-L13
+     |  |  |  |  |  | =C14-F14 | =D14/G14 |  | 0.0 | =(G14*I14)+J14 |  | =K14-L14
+     |  |  |  |  |  | =C15-F15 | =D15/G15 |  | 0.0 | =(G15*I15)+J15 |  | =K15-L15
+     |  |  |  |  |  | =C16-F16 | =D16/G16 |  | 0.0 | =(G16*I16)+J16 |  | =K16-L16
+     |  |  |  |  |  | =C17-F17 | =D17/G17 |  | 0.0 | =(G17*I17)+J17 |  | =K17-L17
+     | Khin Win |  |  |  |  | =C18-F18 | =D18/G18 |  | 140350.0 | =(G18*I18)+J18 |  | =K18-L18
+    Temporary |  |  |  |  |  | =C19-F19 | =D19/G19 |  | 0.0 | =(G19*I19)+J19 |  | =K19-L19
+     |  |  | Total | =SUM(E3:E19) |  |  |  |  |  | Total Paid  | =SUM(L3:L19)
+    Date | 2026-07-02 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 8.1 | 6.25 | 5.8 | 0.15 | =C23-F23 | =D23/G23 | 3000.0 | =M3 | =(G23*I23)+J23 | 24000.0 | =K23-L23
+    1.07 | Nu Nu Win | 9.8 | 7.65 | 6.95 | 0.2 | =C24-F24 | =D24/G24 | 3000.0 | =M4 | =(G24*I24)+J24 |  | =K24-L24
+    0.96 | Mi Tayy | 7.55 | 5.9 | 5.5 | 0.15 | =C25-F25 | =D25/G25 | 3000.0 | =M5 | =(G25*I25)+J25 |  | =K25-L25
+    0.865 | Kaung Khant |  |  |  |  | =C26-F26 | =D26/G26 |  | =M6 | =(G26*I26)+J26 |  | =K26-L26
+    0.885 | Than Cho |  |  |  |  | =C27-F27 | =D27/G27 |  | =M7 | =(G27*I27)+J27 |  | =K27-L27
+     | Thel Thel |  |  |  |  | =C28-F28 | =D28/G28 |  | =M8 | =(G28*I28)+J28 |  | =K28-L28
+    0.85 | War War Tun |  |  |  |  | =C29-F29 | =D29/G29 |  | =M9 | =(G29*I29)+J29 |  | =K29-L29
+    0.93 | Ma Ni Sander |  |  |  |  | =C30-F30 | =D30/G30 |  | =M10 | =(G30*I30)+J30 |  | =K30-L30
+    0.96 | Khin May Sann | 6.5 | 5.0 | 4.3 | 0.15 | =C31-F31 | =D31/G31 | 3000.0 | =M11 | =(G31*I31)+J31 | 19000.0 | =K31-L31
+    0.815 | Naing Naing Win |  |  |  |  | =C32-F32 | =D32/G32 |  | =M12 | =(G32*I32)+J32 |  | =K32-L32
+     |  |  |  |  |  | =C33-F33 | =D33/G33 |  | =M13 | =(G33*I33)+J33 |  | =K33-L33
+     |  |  |  |  |  | =C34-F34 | =D34/G34 |  | =M14 | =(G34*I34)+J34 |  | =K34-L34
+     |  |  |  |  |  | =C35-F35 | =D35/G35 |  | =M15 | =(G35*I35)+J35 |  | =K35-L35
+     |  |  |  |  |  | =C36-F36 | =D36/G36 |  | =M16 | =(G36*I36)+J36 |  | =K36-L36
+     |  |  |  |  |  | =C37-F37 | =D37/G37 |  | =M17 | =(G37*I37)+J37 |  | =K37-L37
+     | Khin Win |  |  |  |  | =C38-F38 | =D38/G38 |  | =M18 | =(G38*I38)+J38 |  | =K38-L38
+    Temporary |  |  |  |  |  | =C39-F39 | =D39/G39 |  | =M19 | =(G39*I39)+J39 |  | =K39-L39
+     |  |  | Total | =SUM(E23:E39) |  |  |  |  |  | Total Paid  | =SUM(L23:L39)
+    Date | 2026-07-03 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 7.7 | 6.1 | 5.55 | 0.2 | =C43-F43 | =D43/G43 | 3000.0 | =M23 | =(G43*I43)+J43 | 23000.0 | =K43-L43
+    1.07 | Nu Nu Win | 8.4 | 6.88 | 6.4 | 0.2 | =C44-F44 | =D44/G44 | 3000.0 | =M24 | =(G44*I44)+J44 |  | =K44-L44
+    0.96 | Mi Tayy | 7.25 | 5.85 | 5.45 | 0.2 | =C45-F45 | =D45/G45 | 3000.0 | =M25 | =(G45*I45)+J45 |  | =K45-L45
+    0.865 | Kaung Khant |  |  |  |  | =C46-F46 | =D46/G46 |  | =M26 | =(G46*I46)+J46 |  | =K46-L46
+    0.885 | Than Cho |  |  |  |  | =C47-F47 | =D47/G47 |  | =M27 | =(G47*I47)+J47 |  | =K47-L47
+     | Thel Thel | 15.0 | 11.34 | 10.66 | 0.26 | =C48-F48 | =D48/G48 | 3000.0 | =M28 | =(G48*I48)+J48 | 45000.0 | =K48-L48 | 16.0
+    0.85 | War War Tun |  |  |  |  | =C49-F49 | =D49/G49 |  | =M29 | =(G49*I49)+J49 |  | =K49-L49
+    0.93 | Ma Ni Sander |  |  |  |  | =C50-F50 | =D50/G50 |  | =M30 | =(G50*I50)+J50 |  | =K50-L50
+    0.96 | Khin May Sann | 5.6 | 4.45 | 4.1 | 0.13 | =C51-F51 | =D51/G51 | 3000.0 | =M31 | =(G51*I51)+J51 | 17000.0 | =K51-L51
+    0.815 | Naing Naing Win |  |  |  |  | =C52-F52 | =D52/G52 |  | =M32 | =(G52*I52)+J52 |  | =K52-L52
+     |  |  |  |  |  | =C53-F53 | =D53/G53 |  | =M33 | =(G53*I53)+J53 |  | =K53-L53
+     |  |  |  |  |  | =C54-F54 | =D54/G54 |  | =M34 | =(G54*I54)+J54 |  | =K54-L54
+     |  |  |  |  |  | =C55-F55 | =D55/G55 |  | =M35 | =(G55*I55)+J55 |  | =K55-L55
+     |  |  |  |  |  | =C56-F56 | =D56/G56 |  | =M36 | =(G56*I56)+J56 |  | =K56-L56
+     |  |  |  |  |  | =C57-F57 | =D57/G57 |  | =M37 | =(G57*I57)+J57 |  | =K57-L57
+     | Khin Win | 27.0 | 21.35 | 18.65 | 0.8 | =C58-F58 | =D58/G58 | 3000.0 | =M38 | =(G58*I58)+J58 |  | =K58-L58 | 27.0
+    Temporary |  |  |  |  |  | =C59-F59 | =D59/G59 |  | =M39 | =(G59*I59)+J59 |  | =K59-L59
+     |  |  | Total | =SUM(E43:E59) |  |  |  |  |  | Total Paid  | =SUM(L43:L59)
+    Date | 2026-07-04 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 7.65 | 6.0 | 5.56 | 0.1 | =C63-F63 | =D63/G63 | 3000.0 | =M43 | =(G63*I63)+J63 | 23000.0 | =K63-L63
+    1.07 | Nu Nu Win | 8.1 | 6.5 | 5.9 | 0.14 | =C64-F64 | =D64/G64 | 3000.0 | =M44 | =(G64*I64)+J64 | 158000.0 | =K64-L64
+    0.96 | Mi Tayy | 6.75 | 5.35 | 4.9 | 0.15 | =C65-F65 | =D65/G65 | 3000.0 | =M45 | =(G65*I65)+J65 | 120000.0 | =K65-L65
+    0.865 | Kaung Khant |  |  |  |  | =C66-F66 | =D66/G66 |  | =M46 | =(G66*I66)+J66 |  | =K66-L66
+    0.885 | Than Cho |  |  |  |  | =C67-F67 | =D67/G67 |  | =M47 | =(G67*I67)+J67 |  | =K67-L67
+     | Thel Thel |  |  |  |  | =C68-F68 | =D68/G68 |  | =M48 | =(G68*I68)+J68 |  | =K68-L68
+    0.85 | War War Tun |  |  |  |  | =C69-F69 | =D69/G69 |  | =M49 | =(G69*I69)+J69 |  | =K69-L69
+    0.93 | Ma Ni Sander |  |  |  |  | =C70-F70 | =D70/G70 |  | =M50 | =(G70*I70)+J70 |  | =K70-L70
+    0.96 | Khin May Sann | 5.6 | 4.55 | 4.15 | 0.1 | =C71-F71 | =D71/G71 | 3000.0 | =M51 | =(G71*I71)+J71 | 17000.0 | =K71-L71
+    0.815 | Naing Naing Win |  |  |  |  | =C72-F72 | =D72/G72 |  | =M52 | =(G72*I72)+J72 |  | =K72-L72
+     |  |  |  |  |  | =C73-F73 | =D73/G73 |  | =M53 | =(G73*I73)+J73 |  | =K73-L73
+     |  |  |  |  |  | =C74-F74 | =D74/G74 |  | =M54 | =(G74*I74)+J74 |  | =K74-L74
+     |  |  |  |  |  | =C75-F75 | =D75/G75 |  | =M55 | =(G75*I75)+J75 |  | =K75-L75
+     |  |  |  |  |  | =C76-F76 | =D76/G76 |  | =M56 | =(G76*I76)+J76 |  | =K76-L76
+     |  |  |  |  |  | =C77-F77 | =D77/G77 |  | =M57 | =(G77*I77)+J77 |  | =K77-L77
+     | Khin Win |  |  |  |  | =C78-F78 | =D78/G78 |  | =M58 | =(G78*I78)+J78 |  | =K78-L78
+    Temporary |  |  |  |  |  | =C79-F79 | =D79/G79 |  | =M59 | =(G79*I79)+J79 |  | =K79-L79
+     |  |  | Total | =SUM(E63:E79) |  |  |  |  |  | Total Paid  | =SUM(L63:L79)
+    Date | 2026-07-05 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 7.7 | 6.0 | 5.5 | 0.15 | =C83-F83 | =D83/G83 | 3000.0 | =M63 | =(G83*I83)+J83 |  | =K83-L83
+    1.07 | Nu Nu Win | 7.5 | 6.0 | 5.5 | 0.1 | =C84-F84 | =D84/G84 | 3000.0 | =M64 | =(G84*I84)+J84 |  | =K84-L84
+    0.96 | Mi Tayy | 6.9 | 5.4 | 5.05 | 0.15 | =C85-F85 | =D85/G85 | 3000.0 | =M65 | =(G85*I85)+J85 |  | =K85-L85
+    0.865 | Kaung Khant |  |  |  |  | =C86-F86 | =D86/G86 |  | =M66 | =(G86*I86)+J86 |  | =K86-L86
+    0.885 | Than Cho |  |  |  |  | =C87-F87 | =D87/G87 |  | =M67 | =(G87*I87)+J87 |  | =K87-L87
+     | Thel Thel | 16.0 | 12.0 | 11.15 | 0.25 | =C88-F88 | =D88/G88 | 3000.0 | =M68 | =(G88*I88)+J88 |  | =K88-L88
+    0.85 | War War Tun |  |  |  |  | =C89-F89 | =D89/G89 |  | =M69 | =(G89*I89)+J89 |  | =K89-L89
+    0.93 | Ma Ni Sander |  |  |  |  | =C90-F90 | =D90/G90 |  | =M70 | =(G90*I90)+J90 |  | =K90-L90
+    0.96 | Khin May Sann | 6.1 | 4.8 | 4.0 | 0.15 | =C91-F91 | =D91/G91 | 3000.0 | =M71 | =(G91*I91)+J91 |  | =K91-L91
+    0.815 | Naing Naing Win |  |  |  |  | =C92-F92 | =D92/G92 |  | =M72 | =(G92*I92)+J92 |  | =K92-L92
+     |  |  |  |  |  | =C93-F93 | =D93/G93 |  | =M73 | =(G93*I93)+J93 |  | =K93-L93
+     |  |  |  |  |  | =C94-F94 | =D94/G94 |  | =M74 | =(G94*I94)+J94 |  | =K94-L94
+     |  |  |  |  |  | =C95-F95 | =D95/G95 |  | =M75 | =(G95*I95)+J95 |  | =K95-L95
+     |  |  |  |  |  | =C96-F96 | =D96/G96 |  | =M76 | =(G96*I96)+J96 |  | =K96-L96
+     |  |  |  |  |  | =C97-F97 | =D97/G97 |  | =M77 | =(G97*I97)+J97 |  | =K97-L97
+     | Khin Win |  |  |  |  | =C98-F98 | =D98/G98 |  | =M78 | =(G98*I98)+J98 |  | =K98-L98
+    Temporary |  |  |  |  |  | =C99-F99 | =D99/G99 |  | =M79 | =(G99*I99)+J99 |  | =K99-L99
+     |  |  | Total | =SUM(E83:E99) |  |  |  |  |  | Total Paid  | =SUM(L83:L99)
+    Date | 2026-07-06 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 7.7 | 6.0 | 5.55 | 0.15 | =C103-F103 | =D103/G103 | 3000.0 | =M83 | =(G103*I103)+J103 | 45000.0 | =K103-L103
+    1.07 | Nu Nu Win | 6.4 | 5.1 | 4.8 | 0.15 | =C104-F104 | =D104/G104 | 3000.0 | =M84 | =(G104*I104)+J104 |  | =K104-L104
+    0.96 | Mi Tayy | 5.5 | 4.35 | 4.3 | 0.15 | =C105-F105 | =D105/G105 | 3000.0 | =M85 | =(G105*I105)+J105 |  | =K105-L105
+    0.865 | Kaung Khant |  |  |  |  | =C106-F106 | =D106/G106 |  | =M86 | =(G106*I106)+J106 |  | =K106-L106
+    0.885 | Than Cho |  |  |  |  | =C107-F107 | =D107/G107 |  | =M87 | =(G107*I107)+J107 |  | =K107-L107
+     | Thel Thel |  |  |  |  | =C108-F108 | =D108/G108 |  | =M88 | =(G108*I108)+J108 | 47000.0 | =K108-L108
+    0.85 | War War Tun |  |  |  |  | =C109-F109 | =D109/G109 |  | =M89 | =(G109*I109)+J109 |  | =K109-L109
+    0.93 | Ma Ni Sander |  |  |  |  | =C110-F110 | =D110/G110 |  | =M90 | =(G110*I110)+J110 |  | =K110-L110
+    0.96 | Khin May Sann |  |  |  |  | =C111-F111 | =D111/G111 |  | =M91 | =(G111*I111)+J111 |  | =K111-L111
+    0.815 | Naing Naing Win |  |  |  |  | =C112-F112 | =D112/G112 |  | =M92 | =(G112*I112)+J112 |  | =K112-L112
+     |  |  |  |  |  | =C113-F113 | =D113/G113 |  | =M93 | =(G113*I113)+J113 |  | =K113-L113
+     |  |  |  |  |  | =C114-F114 | =D114/G114 |  | =M94 | =(G114*I114)+J114 |  | =K114-L114
+     |  |  |  |  |  | =C115-F115 | =D115/G115 |  | =M95 | =(G115*I115)+J115 |  | =K115-L115
+     |  |  |  |  |  | =C116-F116 | =D116/G116 |  | =M96 | =(G116*I116)+J116 |  | =K116-L116
+     |  |  |  |  |  | =C117-F117 | =D117/G117 |  | =M97 | =(G117*I117)+J117 |  | =K117-L117
+     | Khin Win |  |  |  |  | =C118-F118 | =D118/G118 |  | =M98 | =(G118*I118)+J118 |  | =K118-L118
+    Temporary |  |  |  |  |  | =C119-F119 | =D119/G119 |  | =M99 | =(G119*I119)+J119 |  | =K119-L119
+     |  |  | Total | =SUM(E103:E119) |  |  |  |  |  | Total Paid  | =SUM(L103:L119)
+     |  |  |  |  |  |  |  |  |  | Total of First week | =L20+L40+L60+L80+L100+L120
+     |  |  |  |  |  |  |  |  |  | Total Grade1 of the week | =E20+E40+E60+E80+E100+E120
+
+  --- Sheet: '2nd Week' (rows=1000, cols=26) ---
+    Date | 2026-07-07 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 7.4 | 5.95 | 5.35 | 0.15 | =C3-F3 | =D3/G3 | 3000.0 | ='1st Week'!M103 | =(G3*I3)+J3 | 22000.0 | =K3-L3
+    1.07 | Nu Nu Win | 8.9 | 7.1 | 6.65 | 0.15 | =C4-F4 | =D4/G4 | 3000.0 | ='1st Week'!M104 | =(G4*I4)+J4 |  | =K4-L4
+    0.96 | Mi Tayy | 6.5 | 5.3 | 5.0 | 0.15 | =C5-F5 | =D5/G5 | 3000.0 | ='1st Week'!M105 | =(G5*I5)+J5 |  | =K5-L5
+    0.865 | Kaung Khant |  |  |  |  | =C6-F6 | =D6/G6 |  | ='1st Week'!M106 | =(G6*I6)+J6 |  | =K6-L6
+    0.885 | Than Cho |  |  |  |  | =C7-F7 | =D7/G7 |  | ='1st Week'!M107 | =(G7*I7)+J7 |  | =K7-L7
+     | Thel Thel |  |  |  |  | =C8-F8 | =D8/G8 |  | ='1st Week'!M108 | =(G8*I8)+J8 |  | =K8-L8
+    0.85 | War War Tun |  |  |  |  | =C9-F9 | =D9/G9 |  | ='1st Week'!M109 | =(G9*I9)+J9 |  | =K9-L9
+    0.93 | Ma Ni Sander |  |  |  |  | =C10-F10 | =D10/G10 |  | ='1st Week'!M110 | =(G10*I10)+J10 |  | =K10-L10
+    0.96 | Khin May Sann | 5.6 | 4.5 | 4.02 | 0.15 | =C11-F11 | =D11/G11 | 3000.0 | ='1st Week'!M111 | =(G11*I11)+J11 | 34000.0 | =K11-L11
+    0.815 | Naing Naing Win |  |  |  |  | =C12-F12 | =D12/G12 |  | ='1st Week'!M112 | =(G12*I12)+J12 |  | =K12-L12
+     |  |  |  |  |  | =C13-F13 | =D13/G13 |  | ='1st Week'!M113 | =(G13*I13)+J13 |  | =K13-L13
+     |  |  |  |  |  | =C14-F14 | =D14/G14 |  | ='1st Week'!M114 | =(G14*I14)+J14 |  | =K14-L14
+     |  |  |  |  |  | =C15-F15 | =D15/G15 |  | ='1st Week'!M115 | =(G15*I15)+J15 |  | =K15-L15
+     |  |  |  |  |  | =C16-F16 | =D16/G16 |  | ='1st Week'!M116 | =(G16*I16)+J16 |  | =K16-L16
+     |  |  |  |  |  | =C17-F17 | =D17/G17 |  | ='1st Week'!M117 | =(G17*I17)+J17 |  | =K17-L17
+     | Khin Win |  |  |  |  | =C18-F18 | =D18/G18 |  | ='1st Week'!M118 | =(G18*I18)+J18 | 218000.0 | =K18-L18
+    Temporary |  |  |  |  |  | =C19-F19 | =D19/G19 |  | ='1st Week'!M119 | =(G19*I19)+J19 |  | =K19-L19
+     |  |  | Total | =SUM(E3:E19) |  |  |  |  |  | Total Paid  | =SUM(L3:L19)
+    Date | 2026-07-08 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 7.25 | 5.8 | 5.35 | 0.1 | =C23-F23 | =D23/G23 | 3000.0 | =M3 | =(G23*I23)+J23 | 21000.0 | =K23-L23
+    1.07 | Nu Nu Win | 6.7 | 5.45 | 5.04 | 0.15 | =C24-F24 | =D24/G24 |  | =M4 | =(G24*I24)+J24 |  | =K24-L24
+    0.96 | Mi Tayy | 6.5 | 5.35 | 4.9 | 0.15 | =C25-F25 | =D25/G25 |  | =M5 | =(G25*I25)+J25 |  | =K25-L25
+    0.865 | Kaung Khant |  |  |  |  | =C26-F26 | =D26/G26 |  | =M6 | =(G26*I26)+J26 |  | =K26-L26
+    0.885 | Than Cho |  |  |  |  | =C27-F27 | =D27/G27 |  | =M7 | =(G27*I27)+J27 |  | =K27-L27
+     | Thel Thel | 18.0 | 13.64 | 12.44 | 0.34 | =C28-F28 | =D28/G28 | 3000.0 | =M8 | =(G28*I28)+J28 | 52000.0 | =K28-L28 | 20.0
+    0.85 | War War Tun |  |  |  |  | =C29-F29 | =D29/G29 |  | =M9 | =(G29*I29)+J29 |  | =K29-L29
+    0.93 | Ma Ni Sander |  |  |  |  | =C30-F30 | =D30/G30 |  | =M10 | =(G30*I30)+J30 |  | =K30-L30
+    0.96 | Khin May Sann | 6.0 | 4.9 | 4.5 | 0.15 | =C31-F31 | =D31/G31 | 3000.0 | =M11 | =(G31*I31)+J31 | 17000.0 | =K31-L31
+    0.815 | Naing Naing Win |  |  |  |  | =C32-F32 | =D32/G32 |  | =M12 | =(G32*I32)+J32 |  | =K32-L32
+     |  |  |  |  |  | =C33-F33 | =D33/G33 |  | =M13 | =(G33*I33)+J33 |  | =K33-L33
+     |  |  |  |  |  | =C34-F34 | =D34/G34 |  | =M14 | =(G34*I34)+J34 |  | =K34-L34
+     |  |  |  |  |  | =C35-F35 | =D35/G35 |  | =M15 | =(G35*I35)+J35 |  | =K35-L35
+     |  |  |  |  |  | =C36-F36 | =D36/G36 |  | =M16 | =(G36*I36)+J36 |  | =K36-L36
+     |  |  |  |  |  | =C37-F37 | =D37/G37 |  | =M17 | =(G37*I37)+J37 |  | =K37-L37
+     | Khin Win | 27.0 | 21.7 | 19.5 | 0.45 | =C38-F38 | =D38/G38 | 3000.0 | =M18 | =(G38*I38)+J38 |  | =K38-L38 | 27.0 | alone
+    Temporary |  |  |  |  |  | =C39-F39 | =D39/G39 |  | =M19 | =(G39*I39)+J39 |  | =K39-L39
+     |  |  | Total | =SUM(E23:E39) |  |  |  |  |  | Total Paid  | =SUM(L23:L39)
+    Date | 2026-07-09 00:00:00
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho | 7.55 | 6.05 | 5.5 | 0.15 | =C43-F43 | =D43/G43 | 3000.0 | =M23 | =(G43*I43)+J43 | 22000.0 | =K43-L43
+    1.07 | Nu Nu Win | 6.1 | 5.04 | 4.52 | 0.15 | =C44-F44 | =D44/G44 | 3000.0 | =M24 | =(G44*I44)+J44 |  | =K44-L44
+    0.96 | Mi Tayy | 5.5 | 4.5 | 4.02 | 0.15 | =C45-F45 | =D45/G45 | 3000.0 | =M25 | =(G45*I45)+J45 |  | =K45-L45
+    0.865 | Kaung Khant |  |  |  |  | =C46-F46 | =D46/G46 |  | =M26 | =(G46*I46)+J46 |  | =K46-L46
+    0.885 | Than Cho |  |  |  |  | =C47-F47 | =D47/G47 |  | =M27 | =(G47*I47)+J47 |  | =K47-L47
+     | Thel Thel |  |  |  |  | =C48-F48 | =D48/G48 |  | =M28 | =(G48*I48)+J48 |  | =K48-L48
+    0.85 | War War Tun |  |  |  |  | =C49-F49 | =D49/G49 |  | =M29 | =(G49*I49)+J49 |  | =K49-L49
+    0.93 | Ma Ni Sander |  |  |  |  | =C50-F50 | =D50/G50 |  | =M30 | =(G50*I50)+J50 |  | =K50-L50
+    0.96 | Khin May Sann | 6.1 | 4.95 | 4.45 | 0.15 | =C51-F51 | =D51/G51 | 3000.0 | =M31 | =(G51*I51)+J51 | 18000.0 | =K51-L51
+    0.815 | Naing Naing Win |  |  |  |  | =C52-F52 | =D52/G52 |  | =M32 | =(G52*I52)+J52 |  | =K52-L52
+     |  |  |  |  |  | =C53-F53 | =D53/G53 |  | =M33 | =(G53*I53)+J53 |  | =K53-L53
+     |  |  |  |  |  | =C54-F54 | =D54/G54 |  | =M34 | =(G54*I54)+J54 |  | =K54-L54
+     |  |  |  |  |  | =C55-F55 | =D55/G55 |  | =M35 | =(G55*I55)+J55 |  | =K55-L55
+     |  |  |  |  |  | =C56-F56 | =D56/G56 |  | =M36 | =(G56*I56)+J56 |  | =K56-L56
+     |  |  |  |  |  | =C57-F57 | =D57/G57 |  | =M37 | =(G57*I57)+J57 |  | =K57-L57
+     | Khin Win |  |  |  |  | =C58-F58 | =D58/G58 |  | =M38 | =(G58*I58)+J58 |  | =K58-L58
+    Temporary |  |  |  |  |  | =C59-F59 | =D59/G59 |  | =M39 | =(G59*I59)+J59 |  | =K59-L59
+     |  |  | Total | =SUM(E43:E59) |  |  |  |  |  | Total Paid  | =SUM(L43:L59)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C63-F63 | =D63/G63 |  | =M43 | =(G63*I63)+J63 |  | =K63-L63
+    1.07 | Nu Nu Win |  |  |  |  | =C64-F64 | =D64/G64 |  | =M44 | =(G64*I64)+J64 |  | =K64-L64
+    0.96 | Mi Tayy |  |  |  |  | =C65-F65 | =D65/G65 |  | =M45 | =(G65*I65)+J65 |  | =K65-L65
+    0.865 | Kaung Khant |  |  |  |  | =C66-F66 | =D66/G66 |  | =M46 | =(G66*I66)+J66 |  | =K66-L66
+    0.885 | Than Cho |  |  |  |  | =C67-F67 | =D67/G67 |  | =M47 | =(G67*I67)+J67 |  | =K67-L67
+     | Thel Thel |  |  |  |  | =C68-F68 | =D68/G68 |  | =M48 | =(G68*I68)+J68 |  | =K68-L68
+    0.85 | War War Tun |  |  |  |  | =C69-F69 | =D69/G69 |  | =M49 | =(G69*I69)+J69 |  | =K69-L69
+    0.93 | Ma Ni Sander |  |  |  |  | =C70-F70 | =D70/G70 |  | =M50 | =(G70*I70)+J70 |  | =K70-L70
+    0.96 | Khin May Sann |  |  |  |  | =C71-F71 | =D71/G71 |  | =M51 | =(G71*I71)+J71 |  | =K71-L71
+    0.815 | Naing Naing Win |  |  |  |  | =C72-F72 | =D72/G72 |  | =M52 | =(G72*I72)+J72 |  | =K72-L72
+     |  |  |  |  |  | =C73-F73 | =D73/G73 |  | =M53 | =(G73*I73)+J73 |  | =K73-L73
+     |  |  |  |  |  | =C74-F74 | =D74/G74 |  | =M54 | =(G74*I74)+J74 |  | =K74-L74
+     |  |  |  |  |  | =C75-F75 | =D75/G75 |  | =M55 | =(G75*I75)+J75 |  | =K75-L75
+     |  |  |  |  |  | =C76-F76 | =D76/G76 |  | =M56 | =(G76*I76)+J76 |  | =K76-L76
+     |  |  |  |  |  | =C77-F77 | =D77/G77 |  | =M57 | =(G77*I77)+J77 |  | =K77-L77
+     | Khin Win |  |  |  |  | =C78-F78 | =D78/G78 |  | =M58 | =(G78*I78)+J78 |  | =K78-L78
+    Temporary |  |  |  |  |  | =C79-F79 | =D79/G79 |  | =M59 | =(G79*I79)+J79 |  | =K79-L79
+     |  |  | Total | =SUM(E63:E79) |  |  |  |  |  | Total Paid  | =SUM(L63:L79)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C83-F83 | =D83/G83 |  | =M63 | =(G83*I83)+J83 |  | =K83-L83
+    1.07 | Nu Nu Win |  |  |  |  | =C84-F84 | =D84/G84 |  | =M64 | =(G84*I84)+J84 |  | =K84-L84
+    0.96 | Mi Tayy |  |  |  |  | =C85-F85 | =D85/G85 |  | =M65 | =(G85*I85)+J85 |  | =K85-L85
+    0.865 | Kaung Khant |  |  |  |  | =C86-F86 | =D86/G86 |  | =M66 | =(G86*I86)+J86 |  | =K86-L86
+    0.885 | Than Cho |  |  |  |  | =C87-F87 | =D87/G87 |  | =M67 | =(G87*I87)+J87 |  | =K87-L87
+     | Thel Thel |  |  |  |  | =C88-F88 | =D88/G88 |  | =M68 | =(G88*I88)+J88 |  | =K88-L88
+    0.85 | War War Tun |  |  |  |  | =C89-F89 | =D89/G89 |  | =M69 | =(G89*I89)+J89 |  | =K89-L89
+    0.93 | Ma Ni Sander |  |  |  |  | =C90-F90 | =D90/G90 |  | =M70 | =(G90*I90)+J90 |  | =K90-L90
+    0.96 | Khin May Sann |  |  |  |  | =C91-F91 | =D91/G91 |  | =M71 | =(G91*I91)+J91 |  | =K91-L91
+    0.815 | Naing Naing Win |  |  |  |  | =C92-F92 | =D92/G92 |  | =M72 | =(G92*I92)+J92 |  | =K92-L92
+     |  |  |  |  |  | =C93-F93 | =D93/G93 |  | =M73 | =(G93*I93)+J93 |  | =K93-L93
+     |  |  |  |  |  | =C94-F94 | =D94/G94 |  | =M74 | =(G94*I94)+J94 |  | =K94-L94
+     |  |  |  |  |  | =C95-F95 | =D95/G95 |  | =M75 | =(G95*I95)+J95 |  | =K95-L95
+     |  |  |  |  |  | =C96-F96 | =D96/G96 |  | =M76 | =(G96*I96)+J96 |  | =K96-L96
+     |  |  |  |  |  | =C97-F97 | =D97/G97 |  | =M77 | =(G97*I97)+J97 |  | =K97-L97
+     | Khin Win |  |  |  |  | =C98-F98 | =D98/G98 |  | =M78 | =(G98*I98)+J98 |  | =K98-L98
+    Temporary |  |  |  |  |  | =C99-F99 | =D99/G99 |  | =M79 | =(G99*I99)+J99 |  | =K99-L99
+     |  |  | Total | =SUM(E83:E99) |  |  |  |  |  | Total Paid  | =SUM(L83:L99)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C103-F103 | =D103/G103 |  | =M83 | =(G103*I103)+J103 |  | =K103-L103
+    1.07 | Nu Nu Win |  |  |  |  | =C104-F104 | =D104/G104 |  | =M84 | =(G104*I104)+J104 |  | =K104-L104
+    0.96 | Mi Tayy |  |  |  |  | =C105-F105 | =D105/G105 |  | =M85 | =(G105*I105)+J105 |  | =K105-L105
+    0.865 | Kaung Khant |  |  |  |  | =C106-F106 | =D106/G106 |  | =M86 | =(G106*I106)+J106 |  | =K106-L106
+    0.885 | Than Cho |  |  |  |  | =C107-F107 | =D107/G107 |  | =M87 | =(G107*I107)+J107 |  | =K107-L107
+     | Thel Thel |  |  |  |  | =C108-F108 | =D108/G108 |  | =M88 | =(G108*I108)+J108 |  | =K108-L108
+    0.85 | War War Tun |  |  |  |  | =C109-F109 | =D109/G109 |  | =M89 | =(G109*I109)+J109 |  | =K109-L109
+    0.93 | Ma Ni Sander |  |  |  |  | =C110-F110 | =D110/G110 |  | =M90 | =(G110*I110)+J110 |  | =K110-L110
+    0.96 | Khin May Sann |  |  |  |  | =C111-F111 | =D111/G111 |  | =M91 | =(G111*I111)+J111 |  | =K111-L111
+    0.815 | Naing Naing Win |  |  |  |  | =C112-F112 | =D112/G112 |  | =M92 | =(G112*I112)+J112 |  | =K112-L112
+     |  |  |  |  |  | =C113-F113 | =D113/G113 |  | =M93 | =(G113*I113)+J113 |  | =K113-L113
+     |  |  |  |  |  | =C114-F114 | =D114/G114 |  | =M94 | =(G114*I114)+J114 |  | =K114-L114
+     |  |  |  |  |  | =C115-F115 | =D115/G115 |  | =M95 | =(G115*I115)+J115 |  | =K115-L115
+     |  |  |  |  |  | =C116-F116 | =D116/G116 |  | =M96 | =(G116*I116)+J116 |  | =K116-L116
+     |  |  |  |  |  | =C117-F117 | =D117/G117 |  | =M97 | =(G117*I117)+J117 |  | =K117-L117
+     | Khin Win |  |  |  |  | =C118-F118 | =D118/G118 |  | =M98 | =(G118*I118)+J118 |  | =K118-L118
+    Temporary |  |  |  |  |  | =C119-F119 | =D119/G119 |  | =M99 | =(G119*I119)+J119 |  | =K119-L119
+     |  |  | Total | =SUM(E103:E119) |  |  |  |  |  | Total Paid  | =SUM(L103:L119)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C123-F123 | =D123/G123 |  | =M103 | =(G123*I123)+J123 |  | =K123-L123
+    1.07 | Nu Nu Win |  |  |  |  | =C124-F124 | =D124/G124 |  | =M104 | =(G124*I124)+J124 |  | =K124-L124
+    0.96 | Mi Tayy |  |  |  |  | =C125-F125 | =D125/G125 |  | =M105 | =(G125*I125)+J125 |  | =K125-L125
+    0.865 | Kaung Khant |  |  |  |  | =C126-F126 | =D126/G126 |  | =M106 | =(G126*I126)+J126 |  | =K126-L126
+    0.885 | Than Cho |  |  |  |  | =C127-F127 | =D127/G127 |  | =M107 | =(G127*I127)+J127 |  | =K127-L127
+     | Thel Thel |  |  |  |  | =C128-F128 | =D128/G128 |  | =M108 | =(G128*I128)+J128 |  | =K128-L128
+    0.85 | War War Tun |  |  |  |  | =C129-F129 | =D129/G129 |  | =M109 | =(G129*I129)+J129 |  | =K129-L129
+    0.93 | Ma Ni Sander |  |  |  |  | =C130-F130 | =D130/G130 |  | =M110 | =(G130*I130)+J130 |  | =K130-L130
+    0.96 | Khin May Sann |  |  |  |  | =C131-F131 | =D131/G131 |  | =M111 | =(G131*I131)+J131 |  | =K131-L131
+    0.815 | Naing Naing Win |  |  |  |  | =C132-F132 | =D132/G132 |  | =M112 | =(G132*I132)+J132 |  | =K132-L132
+     |  |  |  |  |  | =C133-F133 | =D133/G133 |  | =M113 | =(G133*I133)+J133 |  | =K133-L133
+     |  |  |  |  |  | =C134-F134 | =D134/G134 |  | =M114 | =(G134*I134)+J134 |  | =K134-L134
+     |  |  |  |  |  | =C135-F135 | =D135/G135 |  | =M115 | =(G135*I135)+J135 |  | =K135-L135
+     |  |  |  |  |  | =C136-F136 | =D136/G136 |  | =M116 | =(G136*I136)+J136 |  | =K136-L136
+     |  |  |  |  |  | =C137-F137 | =D137/G137 |  | =M117 | =(G137*I137)+J137 |  | =K137-L137
+     | Khin Win |  |  |  |  | =C138-F138 | =D138/G138 |  | =M118 | =(G138*I138)+J138 |  | =K138-L138
+    Temporary |  |  |  |  |  | =C139-F139 | =D139/G139 |  | =M119 | =(G139*I139)+J139 |  | =K139-L139
+     |  |  | Total | =SUM(E123:E139) |  |  |  |  |  | Total Paid  | =SUM(L123:L139)
+     |  |  |  |  |  |  |  |  |  | Total of the week | =L20+L40+L60+L80+L100+L120+L140
+     |  |  |  |  |  |  |  |  |  | Total Grade1 of the week | =E20+E40+E60+E80+E100+E120+E140
+
+  --- Sheet: '3rd Week' (rows=1000, cols=26) ---
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C3-F3 | =D3/G3 |  | ='2nd Week'!M123 | =(G3*I3)+J3 |  | =K3-L3
+    1.07 | Nu Nu Win |  |  |  |  | =C4-F4 | =D4/G4 |  | ='2nd Week'!M124 | =(G4*I4)+J4 |  | =K4-L4
+    0.96 | Mi Tayy |  |  |  |  | =C5-F5 | =D5/G5 |  | ='2nd Week'!M125 | =(G5*I5)+J5 |  | =K5-L5
+    0.865 | Kaung Khant |  |  |  |  | =C6-F6 | =D6/G6 |  | ='2nd Week'!M126 | =(G6*I6)+J6 |  | =K6-L6
+    0.885 | Than Cho |  |  |  |  | =C7-F7 | =D7/G7 |  | ='2nd Week'!M127 | =(G7*I7)+J7 |  | =K7-L7
+     | Thel Thel |  |  |  |  | =C8-F8 | =D8/G8 |  | ='2nd Week'!M128 | =(G8*I8)+J8 |  | =K8-L8
+    0.85 | War War Tun |  |  |  |  | =C9-F9 | =D9/G9 |  | ='2nd Week'!M129 | =(G9*I9)+J9 |  | =K9-L9
+    0.93 | Ma Ni Sander |  |  |  |  | =C10-F10 | =D10/G10 |  | ='2nd Week'!M130 | =(G10*I10)+J10 |  | =K10-L10
+    0.96 | Khin May Sann |  |  |  |  | =C11-F11 | =D11/G11 |  | ='2nd Week'!M131 | =(G11*I11)+J11 |  | =K11-L11
+    0.815 | Naing Naing Win |  |  |  |  | =C12-F12 | =D12/G12 |  | ='2nd Week'!M132 | =(G12*I12)+J12 |  | =K12-L12
+     |  |  |  |  |  | =C13-F13 | =D13/G13 |  | ='2nd Week'!M133 | =(G13*I13)+J13 |  | =K13-L13
+     |  |  |  |  |  | =C14-F14 | =D14/G14 |  | ='2nd Week'!M134 | =(G14*I14)+J14 |  | =K14-L14
+     |  |  |  |  |  | =C15-F15 | =D15/G15 |  | ='2nd Week'!M135 | =(G15*I15)+J15 |  | =K15-L15
+     |  |  |  |  |  | =C16-F16 | =D16/G16 |  | ='2nd Week'!M136 | =(G16*I16)+J16 |  | =K16-L16
+     |  |  |  |  |  | =C17-F17 | =D17/G17 |  | ='2nd Week'!M137 | =(G17*I17)+J17 |  | =K17-L17
+     | Khin Win |  |  |  |  | =C18-F18 | =D18/G18 |  | ='2nd Week'!M138 | =(G18*I18)+J18 |  | =K18-L18
+    Temporary |  |  |  |  |  | =C19-F19 | =D19/G19 |  | ='2nd Week'!M139 | =(G19*I19)+J19 |  | =K19-L19
+     |  |  | Total | =SUM(E3:E19) |  |  |  |  |  | Total Paid  | =SUM(L3:L19)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C23-F23 | =D23/G23 |  | =M3 | =(G23*I23)+J23 |  | =K23-L23
+    1.07 | Nu Nu Win |  |  |  |  | =C24-F24 | =D24/G24 |  | =M4 | =(G24*I24)+J24 |  | =K24-L24
+    0.96 | Mi Tayy |  |  |  |  | =C25-F25 | =D25/G25 |  | =M5 | =(G25*I25)+J25 |  | =K25-L25
+    0.865 | Kaung Khant |  |  |  |  | =C26-F26 | =D26/G26 |  | =M6 | =(G26*I26)+J26 |  | =K26-L26
+    0.885 | Than Cho |  |  |  |  | =C27-F27 | =D27/G27 |  | =M7 | =(G27*I27)+J27 |  | =K27-L27
+     | Thel Thel |  |  |  |  | =C28-F28 | =D28/G28 |  | =M8 | =(G28*I28)+J28 |  | =K28-L28
+    0.85 | War War Tun |  |  |  |  | =C29-F29 | =D29/G29 |  | =M9 | =(G29*I29)+J29 |  | =K29-L29
+    0.93 | Ma Ni Sander |  |  |  |  | =C30-F30 | =D30/G30 |  | =M10 | =(G30*I30)+J30 |  | =K30-L30
+    0.96 | Khin May Sann |  |  |  |  | =C31-F31 | =D31/G31 |  | =M11 | =(G31*I31)+J31 |  | =K31-L31
+    0.815 | Naing Naing Win |  |  |  |  | =C32-F32 | =D32/G32 |  | =M12 | =(G32*I32)+J32 |  | =K32-L32
+     |  |  |  |  |  | =C33-F33 | =D33/G33 |  | =M13 | =(G33*I33)+J33 |  | =K33-L33
+     |  |  |  |  |  | =C34-F34 | =D34/G34 |  | =M14 | =(G34*I34)+J34 |  | =K34-L34
+     |  |  |  |  |  | =C35-F35 | =D35/G35 |  | =M15 | =(G35*I35)+J35 |  | =K35-L35
+     |  |  |  |  |  | =C36-F36 | =D36/G36 |  | =M16 | =(G36*I36)+J36 |  | =K36-L36
+     |  |  |  |  |  | =C37-F37 | =D37/G37 |  | =M17 | =(G37*I37)+J37 |  | =K37-L37
+     | Khin Win |  |  |  |  | =C38-F38 | =D38/G38 |  | =M18 | =(G38*I38)+J38 |  | =K38-L38
+    Temporary |  |  |  |  |  | =C39-F39 | =D39/G39 |  | =M19 | =(G39*I39)+J39 |  | =K39-L39
+     |  |  | Total | =SUM(E23:E39) |  |  |  |  |  | Total Paid  | =SUM(L23:L39)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C43-F43 | =D43/G43 |  | =M23 | =(G43*I43)+J43 |  | =K43-L43
+    1.07 | Nu Nu Win |  |  |  |  | =C44-F44 | =D44/G44 |  | =M24 | =(G44*I44)+J44 |  | =K44-L44
+    0.96 | Mi Tayy |  |  |  |  | =C45-F45 | =D45/G45 |  | =M25 | =(G45*I45)+J45 |  | =K45-L45
+    0.865 | Kaung Khant |  |  |  |  | =C46-F46 | =D46/G46 |  | =M26 | =(G46*I46)+J46 |  | =K46-L46
+    0.885 | Than Cho |  |  |  |  | =C47-F47 | =D47/G47 |  | =M27 | =(G47*I47)+J47 |  | =K47-L47
+     | Thel Thel |  |  |  |  | =C48-F48 | =D48/G48 |  | =M28 | =(G48*I48)+J48 |  | =K48-L48
+    0.85 | War War Tun |  |  |  |  | =C49-F49 | =D49/G49 |  | =M29 | =(G49*I49)+J49 |  | =K49-L49
+    0.93 | Ma Ni Sander |  |  |  |  | =C50-F50 | =D50/G50 |  | =M30 | =(G50*I50)+J50 |  | =K50-L50
+    0.96 | Khin May Sann |  |  |  |  | =C51-F51 | =D51/G51 |  | =M31 | =(G51*I51)+J51 |  | =K51-L51
+    0.815 | Naing Naing Win |  |  |  |  | =C52-F52 | =D52/G52 |  | =M32 | =(G52*I52)+J52 |  | =K52-L52
+     |  |  |  |  |  | =C53-F53 | =D53/G53 |  | =M33 | =(G53*I53)+J53 |  | =K53-L53
+     |  |  |  |  |  | =C54-F54 | =D54/G54 |  | =M34 | =(G54*I54)+J54 |  | =K54-L54
+     |  |  |  |  |  | =C55-F55 | =D55/G55 |  | =M35 | =(G55*I55)+J55 |  | =K55-L55
+     |  |  |  |  |  | =C56-F56 | =D56/G56 |  | =M36 | =(G56*I56)+J56 |  | =K56-L56
+     |  |  |  |  |  | =C57-F57 | =D57/G57 |  | =M37 | =(G57*I57)+J57 |  | =K57-L57
+     | Khin Win |  |  |  |  | =C58-F58 | =D58/G58 |  | =M38 | =(G58*I58)+J58 |  | =K58-L58
+    Temporary |  |  |  |  |  | =C59-F59 | =D59/G59 |  | =M39 | =(G59*I59)+J59 |  | =K59-L59
+     |  |  | Total | =SUM(E43:E59) |  |  |  |  |  | Total Paid  | =SUM(L43:L59)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C63-F63 | =D63/G63 |  | =M43 | =(G63*I63)+J63 |  | =K63-L63
+    1.07 | Nu Nu Win |  |  |  |  | =C64-F64 | =D64/G64 |  | =M44 | =(G64*I64)+J64 |  | =K64-L64
+    0.96 | Mi Tayy |  |  |  |  | =C65-F65 | =D65/G65 |  | =M45 | =(G65*I65)+J65 |  | =K65-L65
+    0.865 | Kaung Khant |  |  |  |  | =C66-F66 | =D66/G66 |  | =M46 | =(G66*I66)+J66 |  | =K66-L66
+    0.885 | Than Cho |  |  |  |  | =C67-F67 | =D67/G67 |  | =M47 | =(G67*I67)+J67 |  | =K67-L67
+     | Thel Thel |  |  |  |  | =C68-F68 | =D68/G68 |  | =M48 | =(G68*I68)+J68 |  | =K68-L68
+    0.85 | War War Tun |  |  |  |  | =C69-F69 | =D69/G69 |  | =M49 | =(G69*I69)+J69 |  | =K69-L69
+    0.93 | Ma Ni Sander |  |  |  |  | =C70-F70 | =D70/G70 |  | =M50 | =(G70*I70)+J70 |  | =K70-L70
+    0.96 | Khin May Sann |  |  |  |  | =C71-F71 | =D71/G71 |  | =M51 | =(G71*I71)+J71 |  | =K71-L71
+    0.815 | Naing Naing Win |  |  |  |  | =C72-F72 | =D72/G72 |  | =M52 | =(G72*I72)+J72 |  | =K72-L72
+     |  |  |  |  |  | =C73-F73 | =D73/G73 |  | =M53 | =(G73*I73)+J73 |  | =K73-L73
+     |  |  |  |  |  | =C74-F74 | =D74/G74 |  | =M54 | =(G74*I74)+J74 |  | =K74-L74
+     |  |  |  |  |  | =C75-F75 | =D75/G75 |  | =M55 | =(G75*I75)+J75 |  | =K75-L75
+     |  |  |  |  |  | =C76-F76 | =D76/G76 |  | =M56 | =(G76*I76)+J76 |  | =K76-L76
+     |  |  |  |  |  | =C77-F77 | =D77/G77 |  | =M57 | =(G77*I77)+J77 |  | =K77-L77
+     | Khin Win |  |  |  |  | =C78-F78 | =D78/G78 |  | =M58 | =(G78*I78)+J78 |  | =K78-L78
+    Temporary |  |  |  |  |  | =C79-F79 | =D79/G79 |  | =M59 | =(G79*I79)+J79 |  | =K79-L79
+     |  |  | Total | =SUM(E63:E79) |  |  |  |  |  | Total Paid  | =SUM(L63:L79)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C83-F83 | =D83/G83 |  | =M63 | =(G83*I83)+J83 |  | =K83-L83
+    1.07 | Nu Nu Win |  |  |  |  | =C84-F84 | =D84/G84 |  | =M64 | =(G84*I84)+J84 |  | =K84-L84
+    0.96 | Mi Tayy |  |  |  |  | =C85-F85 | =D85/G85 |  | =M65 | =(G85*I85)+J85 |  | =K85-L85
+    0.865 | Kaung Khant |  |  |  |  | =C86-F86 | =D86/G86 |  | =M66 | =(G86*I86)+J86 |  | =K86-L86
+    0.885 | Than Cho |  |  |  |  | =C87-F87 | =D87/G87 |  | =M67 | =(G87*I87)+J87 |  | =K87-L87
+     | Thel Thel |  |  |  |  | =C88-F88 | =D88/G88 |  | =M68 | =(G88*I88)+J88 |  | =K88-L88
+    0.85 | War War Tun |  |  |  |  | =C89-F89 | =D89/G89 |  | =M69 | =(G89*I89)+J89 |  | =K89-L89
+    0.93 | Ma Ni Sander |  |  |  |  | =C90-F90 | =D90/G90 |  | =M70 | =(G90*I90)+J90 |  | =K90-L90
+    0.96 | Khin May Sann |  |  |  |  | =C91-F91 | =D91/G91 |  | =M71 | =(G91*I91)+J91 |  | =K91-L91
+    0.815 | Naing Naing Win |  |  |  |  | =C92-F92 | =D92/G92 |  | =M72 | =(G92*I92)+J92 |  | =K92-L92
+     |  |  |  |  |  | =C93-F93 | =D93/G93 |  | =M73 | =(G93*I93)+J93 |  | =K93-L93
+     |  |  |  |  |  | =C94-F94 | =D94/G94 |  | =M74 | =(G94*I94)+J94 |  | =K94-L94
+     |  |  |  |  |  | =C95-F95 | =D95/G95 |  | =M75 | =(G95*I95)+J95 |  | =K95-L95
+     |  |  |  |  |  | =C96-F96 | =D96/G96 |  | =M76 | =(G96*I96)+J96 |  | =K96-L96
+     |  |  |  |  |  | =C97-F97 | =D97/G97 |  | =M77 | =(G97*I97)+J97 |  | =K97-L97
+     | Khin Win |  |  |  |  | =C98-F98 | =D98/G98 |  | =M78 | =(G98*I98)+J98 |  | =K98-L98
+    Temporary |  |  |  |  |  | =C99-F99 | =D99/G99 |  | =M79 | =(G99*I99)+J99 |  | =K99-L99
+     |  |  | Total | =SUM(E83:E99) |  |  |  |  |  | Total Paid  | =SUM(L83:L99)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C103-F103 | =D103/G103 |  | =M83 | =(G103*I103)+J103 |  | =K103-L103
+    1.07 | Nu Nu Win |  |  |  |  | =C104-F104 | =D104/G104 |  | =M84 | =(G104*I104)+J104 |  | =K104-L104
+    0.96 | Mi Tayy |  |  |  |  | =C105-F105 | =D105/G105 |  | =M85 | =(G105*I105)+J105 |  | =K105-L105
+    0.865 | Kaung Khant |  |  |  |  | =C106-F106 | =D106/G106 |  | =M86 | =(G106*I106)+J106 |  | =K106-L106
+    0.885 | Than Cho |  |  |  |  | =C107-F107 | =D107/G107 |  | =M87 | =(G107*I107)+J107 |  | =K107-L107
+     | Thel Thel |  |  |  |  | =C108-F108 | =D108/G108 |  | =M88 | =(G108*I108)+J108 |  | =K108-L108
+    0.85 | War War Tun |  |  |  |  | =C109-F109 | =D109/G109 |  | =M89 | =(G109*I109)+J109 |  | =K109-L109
+    0.93 | Ma Ni Sander |  |  |  |  | =C110-F110 | =D110/G110 |  | =M90 | =(G110*I110)+J110 |  | =K110-L110
+    0.96 | Khin May Sann |  |  |  |  | =C111-F111 | =D111/G111 |  | =M91 | =(G111*I111)+J111 |  | =K111-L111
+    0.815 | Naing Naing Win |  |  |  |  | =C112-F112 | =D112/G112 |  | =M92 | =(G112*I112)+J112 |  | =K112-L112
+     |  |  |  |  |  | =C113-F113 | =D113/G113 |  | =M93 | =(G113*I113)+J113 |  | =K113-L113
+     |  |  |  |  |  | =C114-F114 | =D114/G114 |  | =M94 | =(G114*I114)+J114 |  | =K114-L114
+     |  |  |  |  |  | =C115-F115 | =D115/G115 |  | =M95 | =(G115*I115)+J115 |  | =K115-L115
+     |  |  |  |  |  | =C116-F116 | =D116/G116 |  | =M96 | =(G116*I116)+J116 |  | =K116-L116
+     |  |  |  |  |  | =C117-F117 | =D117/G117 |  | =M97 | =(G117*I117)+J117 |  | =K117-L117
+     | Khin Win |  |  |  |  | =C118-F118 | =D118/G118 |  | =M98 | =(G118*I118)+J118 |  | =K118-L118
+    Temporary |  |  |  |  |  | =C119-F119 | =D119/G119 |  | =M99 | =(G119*I119)+J119 |  | =K119-L119
+     |  |  | Total | =SUM(E103:E119) |  |  |  |  |  | Total Paid  | =SUM(L103:L119)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C123-F123 | =D123/G123 |  | =M103 | =(G123*I123)+J123 |  | =K123-L123
+    1.07 | Nu Nu Win |  |  |  |  | =C124-F124 | =D124/G124 |  | =M104 | =(G124*I124)+J124 |  | =K124-L124
+    0.96 | Mi Tayy |  |  |  |  | =C125-F125 | =D125/G125 |  | =M105 | =(G125*I125)+J125 |  | =K125-L125
+    0.865 | Kaung Khant |  |  |  |  | =C126-F126 | =D126/G126 |  | =M106 | =(G126*I126)+J126 |  | =K126-L126
+    0.885 | Than Cho |  |  |  |  | =C127-F127 | =D127/G127 |  | =M107 | =(G127*I127)+J127 |  | =K127-L127
+     | Thel Thel |  |  |  |  | =C128-F128 | =D128/G128 |  | =M108 | =(G128*I128)+J128 |  | =K128-L128
+    0.85 | War War Tun |  |  |  |  | =C129-F129 | =D129/G129 |  | =M109 | =(G129*I129)+J129 |  | =K129-L129
+    0.93 | Ma Ni Sander |  |  |  |  | =C130-F130 | =D130/G130 |  | =M110 | =(G130*I130)+J130 |  | =K130-L130
+    0.96 | Khin May Sann |  |  |  |  | =C131-F131 | =D131/G131 |  | =M111 | =(G131*I131)+J131 |  | =K131-L131
+    0.815 | Naing Naing Win |  |  |  |  | =C132-F132 | =D132/G132 |  | =M112 | =(G132*I132)+J132 |  | =K132-L132
+     |  |  |  |  |  | =C133-F133 | =D133/G133 |  | =M113 | =(G133*I133)+J133 |  | =K133-L133
+     |  |  |  |  |  | =C134-F134 | =D134/G134 |  | =M114 | =(G134*I134)+J134 |  | =K134-L134
+     |  |  |  |  |  | =C135-F135 | =D135/G135 |  | =M115 | =(G135*I135)+J135 |  | =K135-L135
+     |  |  |  |  |  | =C136-F136 | =D136/G136 |  | =M116 | =(G136*I136)+J136 |  | =K136-L136
+     |  |  |  |  |  | =C137-F137 | =D137/G137 |  | =M117 | =(G137*I137)+J137 |  | =K137-L137
+     | Khin Win |  |  |  |  | =C138-F138 | =D138/G138 |  | =M118 | =(G138*I138)+J138 |  | =K138-L138
+    Temporary |  |  |  |  |  | =C139-F139 | =D139/G139 |  | =M119 | =(G139*I139)+J139 |  | =K139-L139
+     |  |  | Total | =SUM(E123:E139) |  |  |  |  |  | Total Paid  | =SUM(L123:L139)
+     |  |  |  |  |  |  |  |  |  | Total of the week | =L20+L40+L60+L80+L100+L120+L140
+     |  |  |  |  |  |  |  |  |  | Total Grade1 of the week | =E20+E40+E60+E80+E100+E120+E140
+
+  --- Sheet: '4th Week' (rows=1000, cols=26) ---
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C3-F3 | =D3/G3 |  | ='3rd Week'!M123 | =(G3*I3)+J3 |  | =K3-L3
+    1.07 | Nu Nu Win |  |  |  |  | =C4-F4 | =D4/G4 |  | ='3rd Week'!M124 | =(G4*I4)+J4 |  | =K4-L4
+    0.96 | Mi Tayy |  |  |  |  | =C5-F5 | =D5/G5 |  | ='3rd Week'!M125 | =(G5*I5)+J5 |  | =K5-L5
+    0.865 | Kaung Khant |  |  |  |  | =C6-F6 | =D6/G6 |  | ='3rd Week'!M126 | =(G6*I6)+J6 |  | =K6-L6
+    0.885 | Than Cho |  |  |  |  | =C7-F7 | =D7/G7 |  | ='3rd Week'!M127 | =(G7*I7)+J7 |  | =K7-L7
+     | Thel Thel |  |  |  |  | =C8-F8 | =D8/G8 |  | ='3rd Week'!M128 | =(G8*I8)+J8 |  | =K8-L8
+    0.85 | War War Tun |  |  |  |  | =C9-F9 | =D9/G9 |  | ='3rd Week'!M129 | =(G9*I9)+J9 |  | =K9-L9
+    0.93 | Ma Ni Sander |  |  |  |  | =C10-F10 | =D10/G10 |  | ='3rd Week'!M130 | =(G10*I10)+J10 |  | =K10-L10
+    0.96 | Khin May Sann |  |  |  |  | =C11-F11 | =D11/G11 |  | ='3rd Week'!M131 | =(G11*I11)+J11 |  | =K11-L11
+    0.815 | Naing Naing Win |  |  |  |  | =C12-F12 | =D12/G12 |  | ='3rd Week'!M132 | =(G12*I12)+J12 |  | =K12-L12
+     |  |  |  |  |  | =C13-F13 | =D13/G13 |  | ='3rd Week'!M133 | =(G13*I13)+J13 |  | =K13-L13
+     |  |  |  |  |  | =C14-F14 | =D14/G14 |  | ='3rd Week'!M134 | =(G14*I14)+J14 |  | =K14-L14
+     |  |  |  |  |  | =C15-F15 | =D15/G15 |  | ='3rd Week'!M135 | =(G15*I15)+J15 |  | =K15-L15
+     |  |  |  |  |  | =C16-F16 | =D16/G16 |  | ='3rd Week'!M136 | =(G16*I16)+J16 |  | =K16-L16
+     |  |  |  |  |  | =C17-F17 | =D17/G17 |  | ='3rd Week'!M137 | =(G17*I17)+J17 |  | =K17-L17
+     | Khin Win |  |  |  |  | =C18-F18 | =D18/G18 |  | ='3rd Week'!M138 | =(G18*I18)+J18 |  | =K18-L18
+    Temporary |  |  |  |  |  | =C19-F19 | =D19/G19 |  | ='3rd Week'!M139 | =(G19*I19)+J19 |  | =K19-L19
+     |  |  | Total | =SUM(E3:E19) |  |  |  |  |  | Total Paid  | =SUM(L3:L19)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C23-F23 | =D23/G23 |  | =M3 | =(G23*I23)+J23 |  | =K23-L23
+    1.07 | Nu Nu Win |  |  |  |  | =C24-F24 | =D24/G24 |  | =M4 | =(G24*I24)+J24 |  | =K24-L24
+    0.96 | Mi Tayy |  |  |  |  | =C25-F25 | =D25/G25 |  | =M5 | =(G25*I25)+J25 |  | =K25-L25
+    0.865 | Kaung Khant |  |  |  |  | =C26-F26 | =D26/G26 |  | =M6 | =(G26*I26)+J26 |  | =K26-L26
+    0.885 | Than Cho |  |  |  |  | =C27-F27 | =D27/G27 |  | =M7 | =(G27*I27)+J27 |  | =K27-L27
+     | Thel Thel |  |  |  |  | =C28-F28 | =D28/G28 |  | =M8 | =(G28*I28)+J28 |  | =K28-L28
+    0.85 | War War Tun |  |  |  |  | =C29-F29 | =D29/G29 |  | =M9 | =(G29*I29)+J29 |  | =K29-L29
+    0.93 | Ma Ni Sander |  |  |  |  | =C30-F30 | =D30/G30 |  | =M10 | =(G30*I30)+J30 |  | =K30-L30
+    0.96 | Khin May Sann |  |  |  |  | =C31-F31 | =D31/G31 |  | =M11 | =(G31*I31)+J31 |  | =K31-L31
+    0.815 | Naing Naing Win |  |  |  |  | =C32-F32 | =D32/G32 |  | =M12 | =(G32*I32)+J32 |  | =K32-L32
+     |  |  |  |  |  | =C33-F33 | =D33/G33 |  | =M13 | =(G33*I33)+J33 |  | =K33-L33
+     |  |  |  |  |  | =C34-F34 | =D34/G34 |  | =M14 | =(G34*I34)+J34 |  | =K34-L34
+     |  |  |  |  |  | =C35-F35 | =D35/G35 |  | =M15 | =(G35*I35)+J35 |  | =K35-L35
+     |  |  |  |  |  | =C36-F36 | =D36/G36 |  | =M16 | =(G36*I36)+J36 |  | =K36-L36
+     |  |  |  |  |  | =C37-F37 | =D37/G37 |  | =M17 | =(G37*I37)+J37 |  | =K37-L37
+     | Khin Win |  |  |  |  | =C38-F38 | =D38/G38 |  | =M18 | =(G38*I38)+J38 |  | =K38-L38
+    Temporary |  |  |  |  |  | =C39-F39 | =D39/G39 |  | =M19 | =(G39*I39)+J39 |  | =K39-L39
+     |  |  | Total | =SUM(E23:E39) |  |  |  |  |  | Total Paid  | =SUM(L23:L39)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C43-F43 | =D43/G43 |  | =M23 | =(G43*I43)+J43 |  | =K43-L43
+    1.07 | Nu Nu Win |  |  |  |  | =C44-F44 | =D44/G44 |  | =M24 | =(G44*I44)+J44 |  | =K44-L44
+    0.96 | Mi Tayy |  |  |  |  | =C45-F45 | =D45/G45 |  | =M25 | =(G45*I45)+J45 |  | =K45-L45
+    0.865 | Kaung Khant |  |  |  |  | =C46-F46 | =D46/G46 |  | =M26 | =(G46*I46)+J46 |  | =K46-L46
+    0.885 | Than Cho |  |  |  |  | =C47-F47 | =D47/G47 |  | =M27 | =(G47*I47)+J47 |  | =K47-L47
+     | Thel Thel |  |  |  |  | =C48-F48 | =D48/G48 |  | =M28 | =(G48*I48)+J48 |  | =K48-L48
+    0.85 | War War Tun |  |  |  |  | =C49-F49 | =D49/G49 |  | =M29 | =(G49*I49)+J49 |  | =K49-L49
+    0.93 | Ma Ni Sander |  |  |  |  | =C50-F50 | =D50/G50 |  | =M30 | =(G50*I50)+J50 |  | =K50-L50
+    0.96 | Khin May Sann |  |  |  |  | =C51-F51 | =D51/G51 |  | =M31 | =(G51*I51)+J51 |  | =K51-L51
+    0.815 | Naing Naing Win |  |  |  |  | =C52-F52 | =D52/G52 |  | =M32 | =(G52*I52)+J52 |  | =K52-L52
+     |  |  |  |  |  | =C53-F53 | =D53/G53 |  | =M33 | =(G53*I53)+J53 |  | =K53-L53
+     |  |  |  |  |  | =C54-F54 | =D54/G54 |  | =M34 | =(G54*I54)+J54 |  | =K54-L54
+     |  |  |  |  |  | =C55-F55 | =D55/G55 |  | =M35 | =(G55*I55)+J55 |  | =K55-L55
+     |  |  |  |  |  | =C56-F56 | =D56/G56 |  | =M36 | =(G56*I56)+J56 |  | =K56-L56
+     |  |  |  |  |  | =C57-F57 | =D57/G57 |  | =M37 | =(G57*I57)+J57 |  | =K57-L57
+     | Khin Win |  |  |  |  | =C58-F58 | =D58/G58 |  | =M38 | =(G58*I58)+J58 |  | =K58-L58
+    Temporary |  |  |  |  |  | =C59-F59 | =D59/G59 |  | =M39 | =(G59*I59)+J59 |  | =K59-L59
+     |  |  | Total | =SUM(E43:E59) |  |  |  |  |  | Total Paid  | =SUM(L43:L59)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C63-F63 | =D63/G63 |  | =M43 | =(G63*I63)+J63 |  | =K63-L63
+    1.07 | Nu Nu Win |  |  |  |  | =C64-F64 | =D64/G64 |  | =M44 | =(G64*I64)+J64 |  | =K64-L64
+    0.96 | Mi Tayy |  |  |  |  | =C65-F65 | =D65/G65 |  | =M45 | =(G65*I65)+J65 |  | =K65-L65
+    0.865 | Kaung Khant |  |  |  |  | =C66-F66 | =D66/G66 |  | =M46 | =(G66*I66)+J66 |  | =K66-L66
+    0.885 | Than Cho |  |  |  |  | =C67-F67 | =D67/G67 |  | =M47 | =(G67*I67)+J67 |  | =K67-L67
+     | Thel Thel |  |  |  |  | =C68-F68 | =D68/G68 |  | =M48 | =(G68*I68)+J68 |  | =K68-L68
+    0.85 | War War Tun |  |  |  |  | =C69-F69 | =D69/G69 |  | =M49 | =(G69*I69)+J69 |  | =K69-L69
+    0.93 | Ma Ni Sander |  |  |  |  | =C70-F70 | =D70/G70 |  | =M50 | =(G70*I70)+J70 |  | =K70-L70
+    0.96 | Khin May Sann |  |  |  |  | =C71-F71 | =D71/G71 |  | =M51 | =(G71*I71)+J71 |  | =K71-L71
+    0.815 | Naing Naing Win |  |  |  |  | =C72-F72 | =D72/G72 |  | =M52 | =(G72*I72)+J72 |  | =K72-L72
+     |  |  |  |  |  | =C73-F73 | =D73/G73 |  | =M53 | =(G73*I73)+J73 |  | =K73-L73
+     |  |  |  |  |  | =C74-F74 | =D74/G74 |  | =M54 | =(G74*I74)+J74 |  | =K74-L74
+     |  |  |  |  |  | =C75-F75 | =D75/G75 |  | =M55 | =(G75*I75)+J75 |  | =K75-L75
+     |  |  |  |  |  | =C76-F76 | =D76/G76 |  | =M56 | =(G76*I76)+J76 |  | =K76-L76
+     |  |  |  |  |  | =C77-F77 | =D77/G77 |  | =M57 | =(G77*I77)+J77 |  | =K77-L77
+     | Khin Win |  |  |  |  | =C78-F78 | =D78/G78 |  | =M58 | =(G78*I78)+J78 |  | =K78-L78
+    Temporary |  |  |  |  |  | =C79-F79 | =D79/G79 |  | =M59 | =(G79*I79)+J79 |  | =K79-L79
+     |  |  | Total | =SUM(E63:E79) |  |  |  |  |  | Total Paid  | =SUM(L63:L79)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C83-F83 | =D83/G83 |  | =M63 | =(G83*I83)+J83 |  | =K83-L83
+    1.07 | Nu Nu Win |  |  |  |  | =C84-F84 | =D84/G84 |  | =M64 | =(G84*I84)+J84 |  | =K84-L84
+    0.96 | Mi Tayy |  |  |  |  | =C85-F85 | =D85/G85 |  | =M65 | =(G85*I85)+J85 |  | =K85-L85
+    0.865 | Kaung Khant |  |  |  |  | =C86-F86 | =D86/G86 |  | =M66 | =(G86*I86)+J86 |  | =K86-L86
+    0.885 | Than Cho |  |  |  |  | =C87-F87 | =D87/G87 |  | =M67 | =(G87*I87)+J87 |  | =K87-L87
+     | Thel Thel |  |  |  |  | =C88-F88 | =D88/G88 |  | =M68 | =(G88*I88)+J88 |  | =K88-L88
+    0.85 | War War Tun |  |  |  |  | =C89-F89 | =D89/G89 |  | =M69 | =(G89*I89)+J89 |  | =K89-L89
+    0.93 | Ma Ni Sander |  |  |  |  | =C90-F90 | =D90/G90 |  | =M70 | =(G90*I90)+J90 |  | =K90-L90
+    0.96 | Khin May Sann |  |  |  |  | =C91-F91 | =D91/G91 |  | =M71 | =(G91*I91)+J91 |  | =K91-L91
+    0.815 | Naing Naing Win |  |  |  |  | =C92-F92 | =D92/G92 |  | =M72 | =(G92*I92)+J92 |  | =K92-L92
+     |  |  |  |  |  | =C93-F93 | =D93/G93 |  | =M73 | =(G93*I93)+J93 |  | =K93-L93
+     |  |  |  |  |  | =C94-F94 | =D94/G94 |  | =M74 | =(G94*I94)+J94 |  | =K94-L94
+     |  |  |  |  |  | =C95-F95 | =D95/G95 |  | =M75 | =(G95*I95)+J95 |  | =K95-L95
+     |  |  |  |  |  | =C96-F96 | =D96/G96 |  | =M76 | =(G96*I96)+J96 |  | =K96-L96
+     |  |  |  |  |  | =C97-F97 | =D97/G97 |  | =M77 | =(G97*I97)+J97 |  | =K97-L97
+     | Khin Win |  |  |  |  | =C98-F98 | =D98/G98 |  | =M78 | =(G98*I98)+J98 |  | =K98-L98
+    Temporary |  |  |  |  |  | =C99-F99 | =D99/G99 |  | =M79 | =(G99*I99)+J99 |  | =K99-L99
+     |  |  | Total | =SUM(E83:E99) |  |  |  |  |  | Total Paid  | =SUM(L83:L99)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C103-F103 | =D103/G103 |  | =M83 | =(G103*I103)+J103 |  | =K103-L103
+    1.07 | Nu Nu Win |  |  |  |  | =C104-F104 | =D104/G104 |  | =M84 | =(G104*I104)+J104 |  | =K104-L104
+    0.96 | Mi Tayy |  |  |  |  | =C105-F105 | =D105/G105 |  | =M85 | =(G105*I105)+J105 |  | =K105-L105
+    0.865 | Kaung Khant |  |  |  |  | =C106-F106 | =D106/G106 |  | =M86 | =(G106*I106)+J106 |  | =K106-L106
+    0.885 | Than Cho |  |  |  |  | =C107-F107 | =D107/G107 |  | =M87 | =(G107*I107)+J107 |  | =K107-L107
+     | Thel Thel |  |  |  |  | =C108-F108 | =D108/G108 |  | =M88 | =(G108*I108)+J108 |  | =K108-L108
+    0.85 | War War Tun |  |  |  |  | =C109-F109 | =D109/G109 |  | =M89 | =(G109*I109)+J109 |  | =K109-L109
+    0.93 | Ma Ni Sander |  |  |  |  | =C110-F110 | =D110/G110 |  | =M90 | =(G110*I110)+J110 |  | =K110-L110
+    0.96 | Khin May Sann |  |  |  |  | =C111-F111 | =D111/G111 |  | =M91 | =(G111*I111)+J111 |  | =K111-L111
+    0.815 | Naing Naing Win |  |  |  |  | =C112-F112 | =D112/G112 |  | =M92 | =(G112*I112)+J112 |  | =K112-L112
+     |  |  |  |  |  | =C113-F113 | =D113/G113 |  | =M93 | =(G113*I113)+J113 |  | =K113-L113
+     |  |  |  |  |  | =C114-F114 | =D114/G114 |  | =M94 | =(G114*I114)+J114 |  | =K114-L114
+     |  |  |  |  |  | =C115-F115 | =D115/G115 |  | =M95 | =(G115*I115)+J115 |  | =K115-L115
+     |  |  |  |  |  | =C116-F116 | =D116/G116 |  | =M96 | =(G116*I116)+J116 |  | =K116-L116
+     |  |  |  |  |  | =C117-F117 | =D117/G117 |  | =M97 | =(G117*I117)+J117 |  | =K117-L117
+     | Khin Win |  |  |  |  | =C118-F118 | =D118/G118 |  | =M98 | =(G118*I118)+J118 |  | =K118-L118
+    Temporary |  |  |  |  |  | =C119-F119 | =D119/G119 |  | =M99 | =(G119*I119)+J119 |  | =K119-L119
+     |  |  | Total | =SUM(E103:E119) |  |  |  |  |  | Total Paid  | =SUM(L103:L119)
+    Date
+     | Names | Amount Taken | Alone plus Awar Lone Amount Gotten | Grade 1 ( Aphyu Lone) Gotten | Rotten | Total Amount Gotten | Percent % | Price Rates | Change From Previous Day | Payroll Amount | Amount Paid | Change for Next Day
+     | Khin Thet Cho |  |  |  |  | =C123-F123 | =D123/G123 |  | =M103 | =(G123*I123)+J123 |  | =K123-L123
+    1.07 | Nu Nu Win |  |  |  |  | =C124-F124 | =D124/G124 |  | =M104 | =(G124*I124)+J124 |  | =K124-L124
+    0.96 | Mi Tayy |  |  |  |  | =C125-F125 | =D125/G125 |  | =M105 | =(G125*I125)+J125 |  | =K125-L125
+    0.865 | Kaung Khant |  |  |  |  | =C126-F126 | =D126/G126 |  | =M106 | =(G126*I126)+J126 |  | =K126-L126
+    0.885 | Than Cho |  |  |  |  | =C127-F127 | =D127/G127 |  | =M107 | =(G127*I127)+J127 |  | =K127-L127
+     | Thel Thel |  |  |  |  | =C128-F128 | =D128/G128 |  | =M108 | =(G128*I128)+J128 |  | =K128-L128
+    0.85 | War War Tun |  |  |  |  | =C129-F129 | =D129/G129 |  | =M109 | =(G129*I129)+J129 |  | =K129-L129
+    0.93 | Ma Ni Sander |  |  |  |  | =C130-F130 | =D130/G130 |  | =M110 | =(G130*I130)+J130 |  | =K130-L130
+    0.96 | Khin May Sann |  |  |  |  | =C131-F131 | =D131/G131 |  | =M111 | =(G131*I131)+J131 |  | =K131-L131
+    0.815 | Naing Naing Win |  |  |  |  | =C132-F132 | =D132/G132 |  | =M112 | =(G132*I132)+J132 |  | =K132-L132
+     |  |  |  |  |  | =C133-F133 | =D133/G133 |  | =M113 | =(G133*I133)+J133 |  | =K133-L133
+     |  |  |  |  |  | =C134-F134 | =D134/G134 |  | =M114 | =(G134*I134)+J134 |  | =K134-L134
+     |  |  |  |  |  | =C135-F135 | =D135/G135 |  | =M115 | =(G135*I135)+J135 |  | =K135-L135
+     |  |  |  |  |  | =C136-F136 | =D136/G136 |  | =M116 | =(G136*I136)+J136 |  | =K136-L136
+     |  |  |  |  |  | =C137-F137 | =D137/G137 |  | =M117 | =(G137*I137)+J137 |  | =K137-L137
+     | Khin Win |  |  |  |  | =C138-F138 | =D138/G138 |  | =M118 | =(G138*I138)+J138 |  | =K138-L138
+    Temporary |  |  |  |  |  | =C139-F139 | =D139/G139 |  | =M119 | =(G139*I139)+J139 |  | =K139-L139
+     |  |  | Total | =SUM(E123:E139) |  |  |  |  |  | Total Paid  | =SUM(L123:L139)
+     |  |  |  |  |  |  |  |  |  | Total For the week | =L20+L40+L60+L80+L100+L120+L140
+     |  |  |  |  |  |  |  |  |  | Total Grade1 of the week | =E20+E40+E60+E80+E100+E120+E140
+     |  |  |  |  |  |  |  |  |  | Total for the month | ='1st Week'!L124+'2nd Week'!L143+'3rd Week'!L144+'4th Week'!L142
+     |  |  |  |  |  |  |  |  |  | Total Grade 1 for the month | ='1st Week'!L126+'2nd Week'!L145+'3rd Week'!L146+'4th Week'!L144
+
+======================================================================
+FILE: Cash Book 2026.xlsx
+======================================================================
+
+  --- Sheet: 'January' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+    2026-01-01 00:00:00 | balance bd | 900000.0 |  | 2026-01-01 00:00:00 | =8.9+18.02+14.86-3 | 3.0 |  | ni ni win
+     | zarwin |  | 15000.0 | 2026-01-02 00:00:00 | =18.02+16.14+9.02-3 | 2.9 | 2026-01-01 00:00:00 | 10000.0
+     | lapyae |  | 15000.0 | 2026-01-03 00:00:00 | =18.36+18.66-2.4 | 2.6 | 2026-01-02 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-01-05 00:00:00 | =17.9+18.16+4.4-3 | 2.75 | 2026-01-03 00:00:00 | 10000.0
+    2026-01-02 00:00:00 | zarwin |  | 15000.0 | 2026-01-06 00:00:00 | =9.42+8.82+8.66+9.28+6.24-3 | 2.7
+     | lapyae |  | 15000.0 | 2026-01-07 00:00:00 | =8.3+9+9.28+8.9+5.5-3 | 2.85 | 2026-01-05 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-01-08 00:00:00 | =18.18+8.98+9.22+6.56-3 | =3.8-0.6 | 2026-01-06 00:00:00 | 10000.0
+    2026-01-03 00:00:00 | mk3 4pate tar | 80000.0 |  | 2026-01-09 00:00:00 | =17.7+19.52-2.4 | 3.15 | 2026-01-07 00:00:00 | 10000.0
+     | nu,khin,khin |  | =12000+13000+16000 | 2026-01-10 00:00:00 | =18.64+9.5+9-2.4 | =4.38-0.6 | 2026-01-08 00:00:00 | 10000.0
+     | zarwin |  | 15000.0 | 2026-01-12 00:00:00 | =9.36+9.8+9.7+9.56-2.4 | 4.3 | 2026-01-09 00:00:00 | 10000.0
+     | lapyae |  | 15000.0 | 2026-01-13 00:00:00 | =8.2+8.3+8.4+8.6+8.4-3 | =5.2-0.6 | 2026-01-10 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-01-14 00:00:00 | =9.2+9.1+9.5-1.8 | 3.6
+     | mk3  | 42000.0 |  | 2026-01-15 00:00:00 | =17.36+18.12+9-3 | =4.36-0.6 | 2026-01-12 00:00:00 | 10000.0
+     | mk2 10tar | 5000.0 |  | 2026-01-16 00:00:00 | =17.6+14.68+8.96-3 | =4.34-0.6 | 2026-01-13 00:00:00 | 10000.0
+     | nini win |  | 60000.0 | 2026-01-17 00:00:00 | =9.36+8.9+9.14+8.7-2.4 | =4.34-0.6 | 2026-01-14 00:00:00 | 10000.0
+    2026-01-05 00:00:00 | Ma Nan ßÇ£ßÇ¢ßÇ¥ßÇ▓ 30pk*48500 | =30*12.3*48500 |  | 2026-01-19 00:00:00 | =17.18+8.9+13.08-3 | =5.24-0.6 | 2026-01-15 00:00:00 | 10000.0
+     | car fees |  | 77300.0 | 2026-01-20 00:00:00 | =8.7+8.9+9.34+8.28+5.54-3 | =4.1-0.6 | 2026-01-16 00:00:00 | 10000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇæßÇ»ßÇÉßÇ║ |  | 17819200.0 |  |  |  | 2026-01-17 00:00:00 | 10000.0
+     | zarwin |  | 15000.0 | 2026-01-21 00:00:00 | =17.4+16.64-2.4 | 3.0
+     | lapyae |  | 15000.0 | 2026-01-22 00:00:00 | =18.02+5.52+9.08+9.38-3 | =4.9-0.6 | 2026-01-19 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-01-23 00:00:00 | =18.18+18.26+7.6-3 | =4.2-0.6 | 2026-01-20 00:00:00 | 10000.0
+    2026-01-06 00:00:00 | zarwin |  | 15000.0 | 2026-01-24 00:00:00 | =18.24+18.8-2.4 | =5.1-0.6 | 2026-01-22 00:00:00 | 10000.0
+     | lapyae |  | 15000.0 | 2026-01-26 00:00:00 | =19.04+9.58-1.8 | =3.74-0.6 | 2026-01-23 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-01-27 00:00:00 | =9.18+8.9+8.84+8.62+3.7-3 | 4.0 | 2026-01-24 00:00:00 | 10000.0
+     | mk3 | 20000.0 |  | 2026-01-28 00:00:00 | =19.44+9.66+9.58-2.4 | 3.9
+    2026-01-07 00:00:00 | zarwin |  | 15000.0 | 2026-01-29 00:00:00 | =9.68+9.36+9.28+8.98-2.4 | 4.0 | 2026-01-26 00:00:00 | 10000.0
+     | lapyae |  | 15000.0 | 2026-01-30 00:00:00 | =9.98+9.84+9.58+9.72-2.4 | =4.16-0.6 | 2026-01-27 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-01-31 00:00:00 | =18.34+9.42+9.5-2.4 | =4.1-0.6 | 2026-01-28 00:00:00 | 10000.0
+    2026-01-08 00:00:00 | zarwin |  | 15000.0 |  |  |  | 2026-01-29 00:00:00 | 10000.0
+     | lapyae |  | 15000.0 |  |  |  | 2026-01-30 00:00:00 | 10000.0
+     | photayote |  | 19000.0 |  |  |  | 2026-01-31 00:00:00 | 10000.0
+    2026-01-09 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | Khin+Khin+Nu |  | 38000.0
+     | mk 3 | 20000.0
+    2026-01-10 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | nini win |  | 60000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 13837500.0
+     | ßÇçßÇäßÇ║ßÇçßÇäßÇ║ßÇüßÇ╝ßÇÖßÇ║ßÇ© 25 ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | =25*12.3*45000
+    2026-01-12 00:00:00 | mk 3+2  | 32500.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-01-13 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1500000.0
+     | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 25 car fees |  | 190000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-01-14 00:00:00 | zarwin |  | 15000.0
+     | photayote |  | 19000.0
+     | bike repair |  | =19000+5000
+     | mk blue | 12500.0
+    2026-01-15 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-01-16 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | =5000*4195
+     | Mi Won ßÇíßÇ¡ßÇÉßÇ║ßÇüßÇ¢ßÇÂßÇÇßÇ╝ßÇ¡ßÇ»ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | =5000*4195
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-01-17 00:00:00 | mk3 | 40000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | nini win |  | 60000.0
+     | mk | 17000.0
+    2026-01-19 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-01-20 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | mk3 | 40000.0
+    2026-01-21 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 500000.0
+     | si pin a kun |  | 38000.0
+     | pite pyin  |  | 10000.0
+     | mk3 | 20000.0
+    2026-01-22 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-01-23 00:00:00 | mk2 50tar | 17500.0
+     | car fees |  | 190000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-01-24 00:00:00 | mk blue | 12500.0
+     | mk 2 | 20000.0
+     | a kun  | 8000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | nini win |  | 50000.0
+    2026-01-26 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 14837500.0
+     | Zin Zin ßÇüßÇ╝ßÇÖßÇ║ßÇ©ßÇûßÇ¡ßÇ»ßÇ©ßÇ£ßÇ¢ßÇ¥ßÇ▓ 25pk |  | =12.3*25*45000
+     | zarwin |  | 15000.0
+     | photayote |  | 19000.0
+     | mk g | 100000.0
+    2026-01-27 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | military fees |  | 5000.0
+    2026-01-28 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | mk2 | 420000.0
+     | mk3 | 20000.0
+    2026-01-29 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-01-30 00:00:00 | Khin+Khin |  | 27000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | mk3 | 20000.0
+     | ßÇ£ßÇòßÇ╝ßÇèßÇÀßÇ║ßÇåßÇòßÇ║ | 50000.0
+    2026-01-31 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | nini win |  | 60000.0
+     | mk3 | 85000.0
+    2026-02-01 00:00:00 | peeling fee |  | 2143000.0
+     |  | =SUM(C3:C128) | =SUM(D3:D128)
+     | balance bd | =C129-D129
+
+  --- Sheet: 'Feburary' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+    2026-02-01 00:00:00 | balance bd | 712000.0 |  |  |  |  |  | niniwin
+    2026-02-02 00:00:00 | zarwin |  | 15000.0 | 2026-02-02 00:00:00 | =9.98+10+9.86+9.96-2.4 | =4.2-0.6 | 2026-02-02 00:00:00 | 10000.0
+     | lapyae |  | 15000.0 | 2026-02-03 00:00:00 | =9.6+10+9.98+9.4-0.24 | =3.86-0.6 | 2026-02-03 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-02-04 00:00:00 | =9.48+9.62+9.74+9.14-2.4 | =5.26-0.6 | 2026-02-04 00:00:00 | 10000.0
+     | mk  | 165000.0 |  | 2026-02-05 00:00:00 | =17.94+8.84+9.02+5.9-3 | =3.86-0.6 | 2026-02-05 00:00:00 | 10000.0
+    2026-02-03 00:00:00 | mk3 | 40000.0 |  | 2026-02-06 00:00:00 | =9.58+9.74+9.22+9.8-2.4 | 3.0 | 2026-02-06 00:00:00 | 10000.0
+     | car fees |  | 15000.0 | 2026-02-07 00:00:00 | =10.3+9.94+9.48+9.5-2.4 | 3.1 | 2026-02-07 00:00:00 | 10000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0 | 2026-02-09 00:00:00 | =9.86+9.48+9.56+9.62-2.4 | 3.0 | 2026-02-09 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-02-10 00:00:00 | =17+16.7+7.85-3 | 3.0 | 2026-02-11 00:00:00 | 10000.0
+    2026-02-04 00:00:00 | zarwin |  | 15000.0 | 2026-02-11 00:00:00 | =17.4+17.98+5.52-3 | =3.4-0.6 | 2026-02-13 00:00:00 | 10000.0
+     | lapyae |  | 15000.0 | 2026-02-12 00:00:00 | =8.95+9.1+8.5+7.05+9.05-3 | 2.5 | 2026-02-14 00:00:00 | 10000.0
+     | photayote |  | 19000.0 | 2026-02-13 00:00:00 | =15.54+17.98+8.6-3 | 2.4
+    2026-02-05 00:00:00 | zarwin |  | 15000.0 | 2026-02-14 00:00:00 | =17.52+16.8+8.58-3 | 2.2
+     | lapyae |  | 15000.0 | 2026-02-16 00:00:00 | =17.94+14.92+8.78-3 | 2.08
+     | photayote |  | 19000.0 | 2026-02-17 00:00:00 | =17.5+8.74+9.2+4.1-3 | =2.76-0.3
+    2026-02-06 00:00:00 | zarwin |  | 15000.0 | 2026-02-18 00:00:00 | =9.65+9.35+9.85-1.8 | 1.9
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0 | 2026-02-19 00:00:00 | 24.56 | 1.75
+     | mk | 29000.0 |  | 2026-02-20 00:00:00 | =9.66+10.48+9.38-1.8 | =1.92-0.35
+    2026-02-07 00:00:00 | zarwin |  | 15000.0 | 2026-02-21 00:00:00 | =8.8+8.3+9.1-1.8 | =1.86-0.35
+     | lapyae |  | 15000.0 |  |  |  |  | niniwin
+     | photayote |  | 19000.0 | 2026-02-23 00:00:00 | =8.8+8.46+8.76-1.8 | =1.85-0.35 |  | 10000.0
+     | niniwin |  | 60000.0 | 2026-02-24 00:00:00 | =9.1+9.46+9.16+7-2.4 | =2.15-0.35 |  | 10000.0
+     | mk | 5000.0 |  | 2026-02-25 00:00:00 | 5.7 | 0.28 |  | 10000.0
+    2026-02-08 00:00:00 | ßÇØßÇ½ßÇüßÇ╝ßÇÖßÇ║ßÇ©ßÇüßÇ¢ßÇ▓ |  | 28000.0 | 2026-02-26 00:00:00 | =8.98+9.28+8.86-1.8 | =2-0.35 |  | 10000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0 |  | 2026-02-27 00:00:00 | =8.46+7.76+8.6-1.8 | 2.0 |  | 10000.0
+    2026-02-09 00:00:00 | zarwin |  | 15000.0 | 2026-02-28 00:00:00 | =8.9+8.7+15.4+9.4+3.06--3.6 | =4.22-0.6 |  | 10000.0
+     | lapyae |  | 15000.0 | 2026-03-01 00:00:00 | =18.06+9.36+9.36+9.22-3 | =4.88-0.6 |  | 10000.0
+     | photayote |  | 19000.0
+     | mk | 65000.0
+    2026-02-10 00:00:00 | photayote |  | 19000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+    2026-02-11 00:00:00 | pate tar bag |  | 3000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | ßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ©ßüâßüàßüÇßÇíßÇ¡ßÇÉßÇ║ßÇÉßÇäßÇ║ßÇ£/ßÇ× |  | 165000.0
+     | copy |  | 4000.0
+    2026-02-12 00:00:00 | photayote |  | 19000.0
+     | sale |  | 145000.0
+    2026-02-13 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1500000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 13837500.0
+     | ßÇçßÇäßÇ║ßÇçßÇäßÇ║ßÇüßÇ╝ßÇÖßÇ║ßÇ© 25pkßÇûßÇ¡ßÇ»ßÇ©ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | 13837500.0
+     | deli |  | 5500.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-02-14 00:00:00 | mk 25pone car ka |  | 190000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | niniwin |  | 60000.0
+     | mk3 10tar | 3500.0
+    2026-02-16 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-02-17 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-02-18 00:00:00 | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | sale | 590000.0
+     | win win kyi | 1450000.0
+    2026-02-19 00:00:00 | ßÇçßÇäßÇ║ßÇçßÇäßÇ║ßÇüßÇ╝ßÇÖßÇ║ßÇ© 25pkßÇûßÇ¡ßÇ»ßÇ©ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | =12.3*25*45000
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 13837500.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | mk3 | 20000.0
+    2026-02-20 00:00:00 | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | ßÇæ/ßÇØ ßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ©ßüäßÇíßÇ¡ßÇÉßÇ║ßÇûßÇ¡ßÇ»ßÇ© | 793000.0
+    2026-02-21 00:00:00 | khin+nu |  | =13000+16000
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+     | niniwin |  | 60000.0
+     | a khun bag | 3000.0
+    2026-02-23 00:00:00 | Grading ßÇàßÇÇßÇ║ßÇÇßÇ¼ßÇ©ßÇü/ßÇ£ßÇ× |  | 930000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2700000.0
+     | ßÇüßÇ╝ßÇÖßÇ║ßÇ©25 pk ßÇÇßÇ¼ßÇ©ßÇü |  | 190000.0
+     | mk3 | 20000.0
+     | khin+nu+khin |  | 45000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-02-24 00:00:00 | khin+nu+khin |  | 45000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-02-25 00:00:00 | mk | 65000.0
+     | photayote |  | 19000.0
+    2026-02-26 00:00:00 | MK ßÇíßÇ¡ßÇÉßÇ║ßÇüßÇ¢ßÇÂ ßÇÇßÇ¼ßÇ©ßÇü |  | =99000+70000
+     | ßÇÖßÇößÇößÇ║ßÇ©ßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ©ßÇûßÇ¡ßÇ»ßÇ©ßÇ£ßÇ¢ßÇ¥ßÇ▓ | 63159700.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇæßÇ»ßÇÉßÇ║ |  | 30000000.0
+     | Daw San Aye ßÇåßÇòßÇ║ |  | 30000000.0
+     | ßÇíßÇÉßÇ¡ßÇ»ßÇ© |  | 3240000.0
+    2026-02-26 00:00:00 | mk3 | 20000.0
+     | rubber band |  | 7000.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0
+    2026-02-27 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 7928100.0
+     | Mi Won ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | 7005600.0
+     | ßÇçßÇäßÇ║ßÇçßÇäßÇ║ßÇüßÇ╝ßÇÖßÇ║ßÇ©ßüâ 5pkßÇûßÇ¡ßÇ»ßÇ©ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | 922500.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2000000.0
+     | Ma Nan ßÇ£ßÇ»ßÇÂßÇ© 27pk+ßÇØßÇ½ 16pk carfee |  | 15000.0 | ******
+     | mk3 | 23600.0
+     | lapyae |  | 15000.0
+     | photayote |  | 19000.0 | 2026-02-05 00:00:00 | 8.0 | 40000.0
+     | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2500000.0 |  |  | 14.0 | 56000.0
+    2026-02-28 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0 |  |  | 38.65 | 154000.0
+     | lapyae |  | 15000.0 |  | 101.15 | 485500.0
+     | khin+nu |  | 30000.0 |  | 50.2 | 241000.0
+     | photayote |  | 19000.0 |  | 19.85 | 99000.0
+     | lapyae repay | 50000.0 |  |  | 44.35 | 221000.0
+    2026-03-01 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 22000000.0 |  |  | 194.2 | 931000.0
+     | Daw San Aye ßÇåßÇòßÇ║ |  | 20000000.0 |  | 15.25 | 91500.0
+     | ßÇíßÇÉßÇ¡ßÇ»ßÇ© |  | 2200000.0 |  | 17.65 | 105900.0
+     | ßÇüßÇ╝ßÇÖßÇ║ßÇ© ßüüßüÇßÇòßÇ¡ßÇ×ßÇ¼ | 500000.0 |  |  | 32.85 | 197000.0
+     | mk | 125000.0 |  |  | 6.2 | 24300.0
+     | mk | 10000.0 |  |  | 1.9 | 9500.0
+     | niniwin |  | 70000.0 |  | 60.8 | 243000.0
+     | khin+nu+khin+nge ma+lapyae |  | =15000*5 |  | 20.0 | 100000.0
+     | photayote |  | 19000.0 |  | 15.8 | 94800.0
+     | ßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ©1326 |  | 6814450.0 |  | 92.18 | 553000.0
+     | Peeling |  | 1800000.0 |  | 152.35 | 883000.0
+     |  | =SUM(C3:C126) | =SUM(D3:D126) |  | 3.85 | 23000.0
+     | balance bd | =C127-D127 |  |  | 19.35 | 116000.0
+     |  |  |  |  | 16.2 | 100200.0
+     |  |  |  |  | 22.25 | 133000.0
+     |  |  |  |  | 73.95 | 369000.0
+     |  |  |  |  | 18.35 | 110000.0
+     |  |  |  |  | 281.6 | 1408000.0
+     |  |  |  | 2026-02-28 00:00:00 | 5.15 | 25750.0
+     |  |  |  |  | =SUM(F109:F134) | =SUM(G109:G134) | =G135/F135
+
+  --- Sheet: 'March' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out |  |  |  |  | niniwin
+    2026-03-01 00:00:00 | balance bd | 3153850.0 |  |  | 2026-03-03 00:00:00 | =17.8+17.06+4.2 | 3.76 | 2026-03-03 00:00:00 | 10000.0
+    2026-03-03 00:00:00 | akyay 3 sale | 20000.0 |  |  | 2026-03-04 00:00:00 | =8.65+9.3+9.3+8.4-2.4 | 3.35 | 2026-03-04 00:00:00 | 10000.0
+    2026-03-03 00:00:00 | bag sell | 6000.0 |  |  | 2026-03-05 00:00:00 | =9.34+9.08+9+9.28+8.44-3 | =4.06-0.6 | 2026-03-05 00:00:00 | 10000.0
+     | Photayout |  | 19000.0 |  | 2026-03-06 00:00:00 | =8.6+8.76+8.8+8.88+8.46-0.6 | 4.1 | 2026-03-06 00:00:00 | 10000.0
+     | lapya |  | 15000.0 |  | 2026-03-07 00:00:00 | =8.42+9.5+8.5+9.12-2.4 | =3.9-0.6 | 2026-03-07 00:00:00 | 10000.0
+     | soenandar |  | 15000.0
+     |  |  | 8000.0 |  | 2026-03-09 00:00:00 | =8.24+8.76+8.22+9.08+5.86-3 | =4.84-0.6 |  | 10000.0
+    2026-03-04 00:00:00 | photayout |  | 19000.0 |  | 2026-03-10 00:00:00 | =8.74+9.08+9.18+8.58+2.25-2.4 | =4.32-0.6 |  | 10000.0
+     | lapya |  | 15000.0 |  | 2026-03-11 00:00:00 | =9.12+8.9+9.38+8.7-2.4 | =4.4-0.6 |  | 10000.0
+     | soenandar |  | 15000.0 |  | 2026-03-12 00:00:00 | =8.16+8.92+8.66+8.3-2.4 | 3.0 |  | 10000.0
+     |  |  | 8000.0 |  | 2026-03-13 00:00:00 | =8.84+8.98+7.94+7.86-2.4 | =4.44-0.6 |  | 10000.0
+    2026-03-05 00:00:00 | trash bag | 8000.0 |  |  | 2026-03-14 00:00:00 | =8.02+9.1+8.32+8.46-2.4 | 3.6 |  | 10000.0
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0 |  | 2026-03-16 00:00:00 | =10.08+8.4+9.94+8.18-2.4 | =4.88-0.6 |  | 10000.0
+     | myatnoe |  | 8000.0 |  | 2026-03-17 00:00:00 | =8.64+6.78+8.46+8.8-2.4 | =5-0.6 |  | 10000.0
+     | photayote |  | 19000.0 |  | 2026-03-18 00:00:00 | =16.98+16.66+8.52-3 | =6.26-0.6 |  | 10000.0
+     | ßÇàßÇÇßÇ║ßÇøßÇ▒ßÇ¼ßÇäßÇ║ßÇ© | 2900000.0 |  |  | 2026-03-19 00:00:00 | =17.78+18.1+8.56-3 | =6-0.6 |  | 10000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 30000000.0 |  |  | 2026-03-20 00:00:00 | =18.8+18.8+9.02-3 | =4.2 |  | 10000.0
+     | Daw San Aye ßÇåßÇòßÇ║ |  | 30000000.0 | ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2026-03-21 00:00:00 | =17.18+17.46+9.2-3 | =4.1-0.6 |  | 10000.0
+     | ßÇíßÇÉßÇ¡ßÇ»ßÇ© |  | 3340000.0
+    2026-03-06 00:00:00 | mk | 32500.0 |  |  | 2026-03-23 00:00:00 | =17.7+18.1+5.02-3 | =3.9-0.6 |  | 10000.0
+     | lapyae |  | 15000.0 |  | 2026-03-24 00:00:00 | =17.16+17.32+5.84-3 | 4.1 |  | 10000.0
+     | soenandar |  | 15000.0 |  | 2026-03-25 00:00:00 | =17.08+16.52+5.34-3 | =4.2-0.6 |  | 10000.0
+     | myatnoe |  | 8000.0 |  | 2026-03-26 00:00:00 | =17.18+17.56+8.76-3 | =4.1-0.6 |  | 10000.0
+     | photayote |  | 19000.0 |  | 2026-03-27 00:00:00 | =18+18.24+9.34-3 | 4.0 |  | 10000.0
+    2026-03-07 00:00:00 | lapyae |  | 15000.0 |  | 2026-03-28 00:00:00 | =17.1+17+7.72-3 | =4.4-0.6 |  | 10000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0 |  | 2026-03-30 00:00:00 | =17.8+17.7+7.18-3 | =4.4-0.6 |  | 10000.0
+     | niniwin |  | 50000.0 |  | 2026-03-31 00:00:00 | =17.24+17.72+8.9-3 | 3.1 |  | 10000.0
+    2026-03-09 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2000000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1500000.0
+     | khin+nu+khin |  | =14800+12000+11200
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | myatnoe |  | 8000.0
+     | photayote |  | 19000.0
+    2026-03-10 00:00:00 | khin+nu+khin |  | =15000*3
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | rice car ka |  | 34000.0
+     | sale | 100000.0
+     | ßÇÖßÇößÇößÇ║ßÇ©ßÇ£ßÇ¢ßÇ¥ßÇ▓ | 17672300.0
+     | Zin Zin ßÇüßÇ╝ßÇÖßÇ║ßÇ© 30pk ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | 16605000.0 | 14/3 ßÇøßÇ▒ßÇ¼ßÇÇßÇ║
+    2026-03-11 00:00:00 | mk2 | 490000.0
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+    2026-03-12 00:00:00 | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | mk | 20000.0
+    2026-03-13 00:00:00 | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | mk  | 12500.0
+    2026-03-14 00:00:00 | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | niniwin |  | 60000.0
+     | mk | 85000.0
+     | ßÇüßÇ╝ßÇÖßÇ║ßÇ©30pk car fees |  | 240000.0
+     | ßÇüßÇ▒ßÇ½ßÇÇßÇ║ßÇÉßÇ¡ßÇ» |  | 15000.0
+     | Nyi Nyi  | 825000.0
+     | ßÇàßÇÂßÇÇßÇ╗ßÇ¡ ßÇüßÇ╝ßÇÖßÇ║ßÇ©ßÇûßÇ¡ßÇ»ßÇ© | 590000.0
+    2026-03-16 00:00:00 | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | bag |  | 10000.0
+     | mk | =215000+65000
+     | ßÇüßÇ╝ßÇÖßÇ║ßÇ©20pk +ßÇüßÇ╝ßÇÖßÇ║ßÇ©ßüé 10pk+ßÇüßÇ╝ßÇÖßÇ║ßüâ4pk |  | =12.3*20*45000+12.3*10*32000+12.3*4*15000 | ßÇøßÇ▒ßÇ¼ßÇÇßÇ║
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 15744000.0
+     | 34pk car fees |  | 287000.0
+    2026-03-17 00:00:00 | mk | 145000.0
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+    2026-03-18 00:00:00 | mk | 154500.0
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | zarwin |  | 15000.0
+     | mk3 | 20000.0
+    2026-03-19 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+    2026-03-20 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | mk | 20000.0
+    2026-03-21 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | mk | 66500.0
+     | niniwin |  | 60000.0
+    2026-03-23 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar |  | 15000.0
+     | photayote |  | 19000.0
+     | mk | 40000.0
+    2026-03-24 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ©20-3-26+24-3-36 | 2500000.0 |  | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ | 532.2 | 3319300.0
+     | zarwin |  | 15000.0 |  | 18.6 | 111600.0
+     | lapyae |  | 15000.0 |  | 93.2 | 559200.0
+     | soenandar |  | 15000.0 |  | 76.8 | 460800.0
+     | photayote |  | 19000.0 |  | 13.65 | 81900.0
+     | military fees |  | 5000.0 |  | 32.7 | 196000.0
+    2026-03-25 00:00:00 | trash bag | 8000.0 |  |  | 35.95 | 179000.0
+     | zarwin |  | 15000.0 |  | 82.55 | 454000.0
+     | lapyae |  | 15000.0 |  | 6.0 | 36000.0
+     | soenandar |  | 15000.0 |  | 10.75 | 64500.0
+     | photayote |  | 19000.0 |  | 67.9 | 407000.0
+     | motorbike fuel oil  |  | 5000.0 |  | 126.0 | 756000.0
+    2026-03-26 00:00:00 | zarwin |  | 15000.0 |  | 13.6 | 54000.0
+     | lapyae |  | 15000.0 |  | 36.85 | 221000.0
+     | soenandar |  | 15000.0 |  | 25.3 | 139000.0
+     | mk | 161000.0 |  |  | 7.3 | 43800.0
+    2026-03-27 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2000000.0 |  |  | 21.45 | 128000.0
+     | mk | 155000.0 |  |  | 3.9 | 23000.0
+     | zarwin |  | 15000.0 |  | 31.3 | 187800.0
+     | lapyae |  | 15000.0 |  | 2.9 | 15950.0
+     | soenandar |  | 15000.0 |  | 7.8 | 46800.0
+     | photayote |  | 19000.0 |  | 6.95 | 34750.0
+    2026-03-28 00:00:00 | mk | 25000.0 |  |  | 24.9 | 149000.0
+     | zarwin |  | 15000.0 |  | 8.95 | 53700.0
+     | lapyae |  | 15000.0 |  | 10.4 | 62000.0
+     | soenandar |  | 15000.0 |  | 127.14 | 635000.0
+     | photayote |  | 19000.0 |  | 18.15 | 108900.0
+     | niniwin |  | 60000.0 |  | 11.6 | 69600.0
+    2026-03-30 00:00:00 | mk | 121500.0 |  |  | 71.65 | 429900.0
+     | mk | 100000.0 |  |  | 38.0 | 228000.0
+     | zarwin |  | 15000.0 |  | 17.5 | 105000.0
+     | lapyae |  | 15000.0 |  | 247.25 | 1607000.0
+     | soenandar |  | 15000.0 |  | 17.15 | 85750.0
+     | photayote |  | 19000.0 |  | 19.95 | 99750.0
+     | lapyae repay | 50000.0 |  |  | 8.25 | 33000.0
+    2026-03-31 00:00:00 | zarwin |  | 15000.0 |  | 4.8 | 28800.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 3319300.0 |  |  | 7.5 | 45000.0
+     | soenandar+lapyae |  | 30000.0 |  | 10.3 | 63000.0
+     | photayote |  | 20000.0 |  | 116.25 | 790000.0
+     | peeling |  | 1744000.0 |  | 20.2 | 131000.0
+     | ßÇÖßÇ£ßÇÖßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ© 2109.14 viss |  | 12724300.0 | ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 17.75 | 106500.0
+    2026-03-08 00:00:00 | mk | =32500+81500 |  |  | 48.45 | 314000.0
+     |  | =SUM(C3:C147) | =SUM(D3:D147) |  | 9.35 | 60000.0
+     | balance bd | =C148-D148 |  | 2026-04-01 00:00:00 | =SUM(F106:F148) | =SUM(G106:G148) | =G149/F149
+
+  --- Sheet: 'April' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out |  |  |  |  | niniwin
+    2026-04-01 00:00:00 | balance bd | 1945650.0 |  |  | 2026-04-01 00:00:00 | =17.94+8.86+18-3 | 2.9 | 10000.0
+     |  |  | =C3-1610000 |  | 2026-04-02 00:00:00 | =18.2+18+9.08-3 | =3.2 | 10000.0
+     | zarwin |  | 15000.0 |  | 2026-04-03 00:00:00 | =16.86+17.84+8.3-3 | =3.1 | 10000.0
+     | lapyae |  | 15000.0 |  | 2026-04-04 00:00:00 | =17+17.5+8.08-3 | 3.0 | 10000.0
+     | soenandar  |  | 15000.0
+     | photayote |  | 20000.0 |  | 2026-04-06 00:00:00 | =18.88+18.44+9.76-3 | 3.4 | 10000.0
+    2026-04-02 00:00:00 | zarwin |  | 15000.0 |  | 2026-04-07 00:00:00 | =16.56+16.84+8.56-3 | =4.04-0.6 | 10000.0
+     | lapyae |  | 15000.0 |  | 2026-04-08 00:00:00 | =17.48+17.46+8.76-3 | 3.08 | 10000.0
+     | soenandar  |  | 15000.0 |  | 2026-04-09 00:00:00 | =16.58+15.28+7.34-3 | =4.14-0.6 | 10000.0
+     | photayote |  | 20000.0 |  | 2026-04-10 00:00:00 | =12.35+16.85-2.4 | =3.45-0.6 | 10000.0
+    2026-04-03 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1500000.0
+     | water pump machine repair |  | 340000.0 |  | 2026-04-19 00:00:00 | 20.0 | 2.75 | 10000.0
+     | zarwin |  | 15000.0 |  | 2026-04-20 00:00:00 | =17.66+18.52+18.3-3.6 | 3.9 | 10000.0
+     | lapyae |  | 15000.0 |  | 2026-04-21 00:00:00 | =18.82+18.7+9-3 | =4.1-0.6 | 10000.0
+     | soenandar  |  | 15000.0 |  | 2026-04-22 00:00:00 | =18.24+17.68+9.06+8.44-3.6 | =5-0.6 | 10000.0
+    2026-04-04 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2500000.0 |  |  | 2026-04-23 00:00:00 | =18.4+19.24+10.9-3.15 | 3.4 | 10000.0
+     | mk | 450000.0 |  |  | 2026-04-24 00:00:00 | =8.82+8.94+8.64+8.44+8.32-3 | =4.14-0.6 | 10000.0
+     | zarwin |  | 15000.0 |  | 2026-04-25 00:00:00 | =18.42+18.86+9.06-3 | =3.36-0.6 | 10000.0
+     | lapyae |  | 15000.0
+     | soenandar  |  | 15000.0 |  | 2026-04-27 00:00:00 | =7.78+8.44+17.34-2.4 | =2.78-0.35 | 10000.0
+     | photayote |  | 20000.0 |  | 2026-04-28 00:00:00 | =9.32+8.62+4.44-1.8 | =1.6-0.35 | 10000.0
+     | niniwin |  | 60000.0 |  | 2026-04-29 00:00:00 | =8.58+8.7+9.2+7.96-2.4 | 2.1 | 10000.0
+    2026-04-06 00:00:00 | mk | 20000.0
+     | military fees |  | 5000.0 |  | 2026-04-30 00:00:00 | =16.5+17.6-2.4 | =3.3-0.6 | 10000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar  |  | 15000.0
+     | photayote |  | 20000.0
+    2026-04-07 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1200000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar  |  | 15000.0
+     | photayote |  | 20000.0
+    2026-04-08 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar  |  | 15000.0
+     | photayote |  | 20000.0
+     | mk | 15600.0
+     | khin may san repay | 50000.0
+     | water pump machine repair |  | 180000.0
+    2026-04-09 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 61000000.0
+     | Daw San San Aye ßÇåßÇòßÇ║ |  | 55000000.0 | ßÇ×ßÇ¢ßÇäßÇ║ßÇ©
+     | ßÇíßÇÉßÇ¡ßÇ»ßÇ© |  | 6050000.0
+     | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2000000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar  |  | 15000.0
+     | photayote |  | 20000.0
+     | tunlinkyaw atoe | 30000.0
+     | mk | 10400.0
+    2026-04-10 00:00:00 | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | soenandar  |  | 15000.0
+     | niniwin |  | 50000.0
+     | photayote |  | 20000.0
+     | mk | 37000.0
+    2026-04-11 00:00:00 | photayote |  | 20000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+    2026-04-12 00:00:00 | mote pho |  | =30000*12
+     | photayote |  | 20000.0
+     | zarwin |  | 15000.0
+     | lapyae |  | 15000.0
+     | photayote debt |  | 300000.0 | ßÇ×ßÇ¢ßÇäßÇ║ßÇ©
+    2026-04-19 00:00:00 | zarwin+4 |  | 75000.0
+     | sale | =260000+20000
+     | photayote |  | 20000.0
+    2026-04-20 00:00:00 | mk | 54000.0
+     | zarwin+2 |  | =15000*3
+     | photayote |  | 20000.0
+     | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0
+    2026-04-21 00:00:00 | mk | 105000.0
+     | zarwin+2 |  | 45000.0
+     | photayote |  | 20000.0
+    2026-04-22 00:00:00 | zarwin+2 |  | 45000.0
+     | photayote |  | 20000.0
+     | trash bag | 8000.0
+    2026-04-23 00:00:00 | zarwin+2 |  | 45000.0
+     | photayote |  | 20000.0
+     | mk | 104000.0
+     | car ka |  | 25000.0
+    2026-04-24 00:00:00 | mk | 40000.0
+     | zarwin+2 |  | 45000.0
+     | photayote |  | 20000.0
+     | alu |  | 10000.0
+    2026-04-25 00:00:00 | zarwin+2 |  | 45000.0
+     | photayote |  | 20000.0
+     | niniwin |  | 70000.0
+     | pk25 car ka |  | 280000.0
+    2026-04-26 00:00:00 | khin +2 |  | 45000.0
+    2026-04-27 00:00:00 | lapyae+1+khin |  | 45000.0
+     | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0
+    2026-04-28 00:00:00 | zarwin |  | =20*800
+     | khin+3 |  | 45000.0 |  | =16*30*9600
+     | mk | =128000+13500 |  | =101*30 | =24480000+F96
+     | linlin+phyohtetkyaw |  | 2000.0
+    2026-04-29 00:00:00 | ßÇæ/ßÇØ ßÇüßÇ╝ßÇÖßÇ║ßÇ©25pk |  | =25*12.3*47000
+     | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 14452500.0
+     | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2730000.0
+     | ßÇæ/ßÇØ 3030viss 9600 ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | 29088000.0 | ßÇ×ßÇ¢ßÇäßÇ║ßÇ©
+     | ßÇÖßÇ»ßÇößÇ║ßÇÀßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | =3030*9600
+     | mk | 40000.0
+     | zarwin |  | 10000.0
+     | lapyae+1 |  | 30000.0
+     | photayote |  | 20000.0
+     | niniwin |  | 30000.0
+    2026-04-30 00:00:00 | zarwin |  | 20000.0 | 10.5
+     | lapyae repay | 50000.0 |  |  | 17.9 | 125000.0
+     | photayote |  | 15000.0 |  | 44.15 | 287000.0
+     | peeling |  | 1913000.0 |  | 14.75 | 103000.0
+    2026-04-16 00:00:00 | mk | 885600.0 |  |  | 249.88 | 1749000.0
+    2026-04-24 00:00:00 | mk | 102000.0 |  |  | 67.15 | 470000.0
+     |  ßÇÖßÇ£ßÇÖßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ©1597.16viss |  | 11192150.0 |  | 4.8 | 31000.0
+     |  | =SUM(C3:C115) | =SUM(D4:D115) |  | 54.9 | 384300.0
+     | balance bd |  | =D116-C116 |  | 7.15 | 46500.0
+     |  |  |  |  | 20.8 | 145500.0
+     |  |  |  |  | 21.5 | 150500.0
+     |  |  |  |  | 5.04 | 35000.0
+     |  |  |  |  | 63.8 | 446000.0
+     |  |  |  |  | 22.4 | 156000.0
+     |  |  |  |  | 24.05 | 168000.0
+     |  |  |  |  | 63.5 | 412500.0
+     |  |  |  |  | 24.85 | 161500.0
+     |  |  |  |  | 11.0 | 71500.0
+     |  |  |  |  | 8.5 | 55000.0
+     |  |  |  |  | 40.3 | 261950.0
+     |  |  |  |  | 9.0 | 63000.0
+     |  |  |  |  | 12.75 | 89000.0
+     |  |  |  |  | 109.55 | 766000.0
+     |  |  |  |  | 17.9 | 125000.0
+     |  |  |  |  | 40.95 | 286500.0
+     |  |  |  |  | 37.15 | 260000.0
+     |  |  |  |  | 29.9 | 209000.0
+     |  |  |  |  | 9.0 | 63000.0
+     |  |  |  |  | 3.4 | 23800.0
+     |  |  |  |  | 9.95 | 69000.0
+     |  |  |  |  | 41.3 | 289000.0
+     |  |  |  |  | 5.8 | 40600.0
+     |  |  |  |  | 8.75 | 61000.0
+     |  |  |  |  | 37.1 | 260000.0
+     |  |  |  |  | 23.25 | 139500.0
+     |  |  |  |  | 365.34 | 2730000.0
+     |  |  |  |  | 40.7 | 285000.0
+     |  |  |  |  | 3.7 | 22000.0
+     |  |  |  |  | 25.25 | 151500.0
+     |  |  |  |  | =SUM(F110:F147) | =SUM(G110:G147)
+
+  --- Sheet: 'May' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out |  |  |  |  | niniwin
+    2026-05-02 00:00:00 | balance bd | 1001000.0
+     |  |  |  |  | 2026-05-02 00:00:00 | =8.74+9.1+9.16+8.54-2.4 | =4.16-0.2 | 10000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | =287.5*7000 |  |  | 2026-05-04 00:00:00 | =17.9+18.32 | 2.66
+     | 287.5viss ßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ© |  | =287.5*7000 |  | 2026-05-05 00:00:00 | =9.12+8.72+8.64+8.24 | 3.44
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2500000.0 |  |  | 2026-05-06 00:00:00 | =8.18+8.4+9.12+8.52 | 3.48
+     | ßÇæ/ßÇØ 300ßÇíßÇ¡ßÇÉßÇ║ßÇÇßÇ¼ßÇ©ßÇü |  | 2356000.0 |  | 2026-05-07 00:00:00 | =18+8.4+7.04-2.4 | 3.1
+     | ma nan 30pk ßÇûßÇ¡ßÇ»ßÇ©ßÇ£ßÇ¢ßÇ¥ßÇ▓ | 17598000.0 |  |  | 2026-05-08 00:00:00 | =8.54+9.38+7.74+7.04-2.4 | =3.1
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇæßÇ»ßÇÉßÇ║ |  | 17598000.0 |  | 2026-05-09 00:00:00 | =8.2+9.14+8.5-1.8 | 2.55
+     | lapyae+1 |  | 30000.0
+     | military fees |  | 5000.0 |  | 2026-05-11 00:00:00 | =8.6+8.82+9.04+8.38-2.4 | 4.2 | 10000.0
+     | photayote |  | 15000.0 |  | 2026-05-12 00:00:00 | =9+8.4+8.4+9.16-2.4 | =3.88-0.6 | 10000.0
+     | niniwin |  | 20000.0 |  | 2026-05-13 00:00:00 | =17.56+18.06+5.9-3 | 3.9 | 10000.0
+    2026-05-04 00:00:00 | Mar Mar Myint ßÇÖßÇ¥ßÇüßÇ╗ßÇ▒ßÇ© | 70000000.0 |  | ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2026-05-14 00:00:00 | =18.76+18.2+4.24-3 | 3.2 | 10000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 8560000.0 |  |  | 2026-05-15 00:00:00 | =18.8+18.68-2.4 | 3.0 | 10000.0
+     | ßÇÇßÇ¡ßÇ»ßÇ×ßÇ¡ßÇößÇ║ßÇ©ßÇæßÇ¢ßÇ▒ßÇ© 8000viss ßÇ£ßÇ¢ßÇ¥ßÇ▓ |  | 78560000.0 | ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2026-05-16 00:00:00 | =10.4+9.44+10+9.36-2.4 | =4.16-0.6 | 10000.0
+     | lapyae+1 |  | 30000.0
+     | photayote |  | 15000.0 |  | 2026-05-18 00:00:00 | =9.12+9.6+8.9+8.86+4.84-3 | =4.12-0.6 | 10000.0
+    2026-05-05 00:00:00 | photayote |  | 15000.0 |  | 2026-05-19 00:00:00 | =9.26+8.72+8.76+8.34+6-3 | 3.1 | 10000.0
+     | lapyae+1 |  | 30000.0 |  | 2026-05-20 00:00:00 | =9.54+20.5+9.36-2.4 | 2.7 | 10000.0
+    2026-05-06 00:00:00 | photayote |  | 15000.0 |  | 2026-05-21 00:00:00 | =16.7+18.54+8.9-3 | 5.0 | 10000.0
+     | lapyae+1 |  | 30000.0 |  | 2026-05-22 00:00:00 | =8.25-0.6 | 1.0 | 10000.0
+     | achan 2 sale | 20000.0 |  |  | new crop | =8.42+9.02+8.82-1.8 | =4.9-0.6
+    2026-05-07 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 500000.0 |  |  | 2026-05-23 00:00:00 | =19.64+18.84-2.4 | =7.2 | 10000.0
+     | lapyae+1 |  | 30000.0
+     | photayote |  | 15000.0 |  | 2026-05-25 00:00:00 | =18.94+18.22-2.4 | =6.08-0.6 | 10000.0
+     | 66.15 |  | =421000+42000 |  | 2026-05-26 00:00:00 | =20+19.72-2.4 | =6.9-0.6 | 10000.0
+     | mk | 454000.0 |  |  | 2026-05-27 00:00:00 | =9.6+9.9+9.56+9.74-2.4 | =6.22-0.6 | 10000.0
+     | sipinkun |  | 245000.0 |  | 2026-05-28 00:00:00 | =19.92+17.64-2.4 | =6.82-0.6 | 10000.0
+    2026-05-08 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0 |  |  | 2026-05-29 00:00:00 | =18.7+9.32+9.82-2.4 | =5.08-0.6 | 10000.0
+     | ßÇíßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ßÇíßÇ¡ßÇÉßÇ║ßÇÇßÇ¼ßÇ©ßÇü |  | 61000.0 |  | 2026-05-30 00:00:00 | =10.28+10.84+10.54-1.8 | =5.54-0.6 | 10000.0
+     | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 6180000.0
+     | U Thein Myint |  | 6180000.0
+     | khin+2 |  | 45000.0
+     | mk | 108000.0
+     | patrol oil |  | 20000.0
+     | photayote |  | 15000.0
+     | ptt max speed |  | 18000.0
+    2026-05-09 00:00:00 | lapyae |  | 15000.0
+     | photayote |  | 15000.0
+     | niniwin |  | 60000.0
+     | cycle pyin ka |  | 45000.0
+     | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 7683600.0
+     | ßÇíßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ßÇíßÇ¡ßÇÉßÇ║ 65550*117.2 |  | 7683600.0 | .0276$/1pcs
+    2026-05-11 00:00:00 | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+     | mk | 20000.0
+    2026-05-12 00:00:00 | ßÇæ/ßÇØ 31*30*9600 |  | =31*30*9600
+     | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 8928000.0
+     | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0
+     | mk | 25000.0
+     | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+    2026-05-13 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0
+     | ßÇæ/ßÇØ ßÇÇßÇ¼ßÇ©ßÇü |  | 1010000.0
+     | ßÇüßÇ▒ßÇ½ßÇÇßÇ║ßÇÉßÇ¡ßÇ» |  | 160000.0
+     | ßÇ£/ßÇ× |  | 142000.0
+     | sale | 1182000.0
+     | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+     | a mite bag | 6000.0
+    2026-05-13 00:00:00 | Daw San San Aye ßÇÖßÇ¥ßÇüßÇ╗ßÇ▒ßÇ© | 50000000.0 |  | ßÇ×ßÇ¢ßÇäßÇ║ßÇ©
+     | Ko Thein Htwe 4680viss*9820 |  | =117*40*9820 | ßÇ×ßÇ¢ßÇäßÇ║ßÇ©
+     | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇæßÇ»ßÇÉßÇ║ |  | 4042400.0
+    2026-05-14 00:00:00 | mk | 116000.0
+     | lapyae+2 |  | 45000.0
+     | khin+2 |  | 45000.0
+     | photayote |  | 15000.0
+     | water purifier repair |  | 140000.0
+    2026-05-15 00:00:00 | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+    2026-05-16 00:00:00 | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+     | niniwin |  | 60000.0
+    2026-05-18 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 500000.0
+     | mk | 100500.0
+     | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+    2026-05-19 00:00:00 | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+    2026-05-20 00:00:00 | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0 | 3.54 | yiyiwin
+     | mk | 20000.0
+     | tuk pyar sell | 8000.0
+    2026-05-21 00:00:00 | achan30pk car ka |  | 330000.0
+     | wood cutter repair |  | 40000.0
+     | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+    2026-05-22 00:00:00 | ßÇÖßÇ»ßÇößÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0
+     | mk | 108000.0
+     |  |  | 130000.0
+     | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+     | photayote borrow money again |  | 300000.0
+     | Daw San San ßÇÖßÇ¥ßÇüßÇ╗ßÇ▒ßÇ© | 50000000.0 |  | ßÇ×ßÇ¢ßÇäßÇ║ßÇ©
+     | zin zin 30*12.3*46500 |  | =30*12.3*46500
+     | WN/MM (u thein myint) |  | 30000000.0
+     | WN/MM (ßÇøßÇ¥ßÇ▒ßÇÀßÇößÇ▒) |  | 5000000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2158500.0
+    2026-05-23 00:00:00 | mk | 18500.0
+     | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+     | niniwin |  | 60000.0
+    2026-05-25 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0
+     | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+     | mk | 20000.0
+    2026-05-26 00:00:00 | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+    2026-05-27 00:00:00 | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0
+    2026-05-28 00:00:00 | lapyae+2 |  | 45000.0
+     | photayote |  | 15000.0 |  | ßÇ£ßÇ»ßÇÂßÇ© | =330.2*48000 |  | Daw San San Aye | 170000000.0
+    2026-05-29 00:00:00 | lapyae+2 |  | 45000.0 |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© ßüü | =610.55*48000 |  | Mar Mar Myint | 70000000.0
+     | photayote |  | 15000.0 |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© ßüé | =39.5*35000 |  | ßÇåßÇòßÇ║ßÇøßÇößÇ║ßÇÇßÇ╗ßÇößÇ║ßÇäßÇ¢ßÇ▒ | =SUM(J114:J115)
+    2026-05-30 00:00:00 | sale | 45000.0 |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | =773*12400
+     | lapyae+1 |  | 30000.0 |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | =315*10400
+     | niniwin |  | 60000.0 |  | ßÇØßÇ½ßÇüßÇ╝ßÇÖßÇ║ßÇ© | =99.85*40000
+    2026-05-31 00:00:00 | peeling |  | 1994000.0 |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© ßüâ | =44.5*15000
+     | ßÇÖßÇ£ßÇÖßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ©214.6viss |  | 1337000.0 |  | ßÇòßÇ½ßÇÇßÇäßÇ║ßÇüßÇ¢ßÇÂ | =400*6800
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2360000.0 |  |  | ßÇíßÇ¡ßÇÉßÇ║ßÇüßÇ¢ßÇÂßÇ£ßÇÇßÇ║ßÇÇßÇ╗ßÇößÇ║ | 38312040.0
+     | win nwe+mi mar  |  | 2360000.0 |  | MM/WN | 99830000.0
+     |  |  |  |  | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇÖßÇ¥ßÇøßÇøßÇößÇ║ | 26177169.0
+     |  | =SUM(C3:C124) | =SUM(D3:D124) |  | ßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ©ßÇíßÇ×ßÇàßÇ║ | 194601500.0
+     | balance bd | =SUM(C125-D125) |  |  | ßÇ£ßÇÇßÇ║ßÇÇßÇ╗ßÇößÇ║ßÇäßÇ¢ßÇ▒ | =SUM(G113:G125)
+     |  |  |  |  | ßÇàßÇ¼ßÇøßÇäßÇ║ßÇ©ßÇüßÇ╗ßÇ»ßÇòßÇ║ßÇ£ßÇÇßÇ║ßÇÇßÇ╗ßÇößÇ║ | =G126-J116
+     |  |  |  |  | 2025-2026 ßÇíßÇøßÇäßÇ║ßÇ© | 125122025.0
+     |  |  |  |  | ßÇíßÇÖßÇ╝ßÇÉßÇ║ßÇäßÇ¢ßÇ▒ | =G129-G130
+
+  --- Sheet: 'June' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+    2026-05-31 00:00:00 | balance bd | 1025000.0
+     |  |  | 261000.0 |  |  |  |  | niniwin
+    2026-06-01 00:00:00 | lapyae+2 |  | 50000.0 |  | 2026-06-01 00:00:00 | =18.34+17.72+5.04-3 | =4.96-0.6 | 10000.0
+     | photayote |  | 15000.0 |  | 2026-06-02 00:00:00 | =18.06+18.8+4.62-3 | =5.22-0.6 | 10000.0
+     | mk | =104000+120000 |  |  | 2026-06-03 00:00:00 | =8.9+8.64+15.06-2.4 | =4.4-0.6 | 10000.0
+     | lapyae repay | 50000.0 |  |  | 2026-06-04 00:00:00 | =17.64+18.4+2.5-2.4 | =4.9-0.6 | 10000.0
+    2026-06-02 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 11807250.0 |  |  | 2026-06-05 00:00:00 | =18.02+17.24+9.14-3 | =5.04-0.6 | 10000.0
+     | ßÇæ/ßÇØ 1297.5viss*9100  |  | =1297.5*9100 |  | 2026-06-06 00:00:00 | =17.66+18.2+8.82-3 | =5.08-0.6 | 10000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2500000.0
+     | lapyae+2 |  | 50000.0
+     | mk | 5000.0 |  |  | 2026-06-08 00:00:00 | =16.7+17.46+8.7-3 | 3.7 | 10000.0
+     | military fee | 5000.0 |  |  | 2026-06-09 00:00:00 | =18.56+17.74+9.36-3 | 4.0 | 10000.0
+     | photayote |  | 15000.0 |  | 2026-06-10 00:00:00 | =18.42+8.88+9.02+9.56-3 | =4.3-0.6 | 10000.0
+     | a mite bag sell | 3000.0 |  |  | 2026-06-11 00:00:00 | =18.06+17.38+8.78-3 | 4.1 | 10000.0
+    2026-06-03 00:00:00 | khin+2 |  | 45000.0 |  | 2026-06-12 00:00:00 | =8.82+7.52+9.14+8.38+8.54-3 | =6.16-0.6 | 10000.0
+     | lapyae+2 |  | 50000.0 |  | 2026-06-13 00:00:00 | =17.66+17.8+2.6-2.85 | =3.9-0.6 | 10000.0
+     | photayote |  | 15000.0
+    2026-06-04 00:00:00 | lapyae+2 |  | 50000.0 |  | 2026-06-16 00:00:00 | =10.02+9.2+9.36+9.08-2.4 | =3.58-0.6 | 10000.0
+     | photayote |  | 15000.0 |  | 2026-06-17 00:00:00 | =17.84+17+7.28-3 | 3.4 | 10000.0
+     | Ma Nan alone24,awar 6 car ka |  | 30000.0 |  | 2026-06-18 00:00:00 | =17.65+18+8.7-3 | 3.7 | 10000.0
+     | mk |  | 21000.0 |  | 2026-06-19 00:00:00 | 41.45 | 3.7 | 10000.0
+    2026-06-05 00:00:00 | lapyae+2 |  | 50000.0 |  | 2026-06-20 00:00:00 | =18.75+17.9+8.8-3 | 3.7 | 10000.0
+     | photayote |  | 15000.0
+     | khin+zarwin |  | 1000000.0 |  | 2026-06-22 00:00:00 | =18.22+17.84+8.98 | 3.96
+     | cycle repair |  | 50000.0 |  | 2026-06-24 00:00:00 | =19.35+18.6-1.83 | 2.1
+    2026-06-06 00:00:00 | lapyae+2 |  | 50000.0 |  | 2026-06-25 00:00:00 | =18.45+18.5+12.15-3.3 | 2.9
+     | photayote |  | 15000.0 |  | 2026-06-26 00:00:00 | =18.04+18.42+12.32-2.8 | 3.0
+     | mk | 108000.0 |  |  | 2026-06-27 00:00:00 | =19.1+12.18+18.64-3.3 | =3.9-0.6
+     | niniwin |  | 60000.0
+    2026-06-08 00:00:00 | mk | 50500.0 |  |  | 2026-06-30 00:00:00 | =19.02+9.5+9.22+9.5-3 | =3.1-0.6 | 10000.0
+     | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+    2026-06-09 00:00:00 | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+     | a mite bag sell 30 | 30000.0
+    2026-06-10 00:00:00 | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+    2026-06-11 00:00:00 | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 300000.0
+    2026-06-12 00:00:00 | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+    2026-06-13 00:00:00 | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+     | niniwin |  | 60000.0
+     | mk | 11000.0
+    2026-06-14 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1786000.0
+     | ßÇÖßÇ«ßÇ©ßÇ×ßÇ¢ßÇ▒ßÇ© 94*19000 |  | =94*19000
+    2026-06-15 00:00:00 | nunuwin |  | 12000.0
+     | photayote |  | 15000.0
+     | a mite bag | 6000.0
+    2026-06-16 00:00:00 | mk | =65500+20000
+     | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+    17/06/2026 | sale | 108000.0
+     | photayote |  | 15000.0
+     | lapyae+2 |  | 50000.0
+    2026-06-18 00:00:00 | laypae+2 |  | 50000.0
+     | photayote |  | 15000.0
+     | sale | 30000.0
+    2026-06-19 00:00:00 | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 3000000.0
+     | boiler ßÇàßÇøßÇÂ |  | 3000000.0
+     | laypae+2 |  | 50000.0
+     | photayote |  | 15000.0
+    2026-06-20 00:00:00 | photayote |  | 15000.0
+     | laypae+2 |  | 50000.0
+     | niniwin |  | 50000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0
+     | ßÇ×ßÇæßÇ»ßÇÂßÇüßÇ╝ßÇÖßÇ║ßÇ© |  | =45000*6.2*8
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2232000.0
+    2026-06-22 00:00:00 | laypae+2 |  | 50000.0
+     | photayote |  | 15000.0
+     | 18/6 KML  215.5*9600 |  | 2068800.0 | KML ßÇÖßÇ¥ßÇøßÇøßÇößÇ║ßÇÇßÇ»ßÇößÇ║ßÇÇßÇ╝ßÇÖßÇ║ßÇ© | 1297.5+215.5 viss
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 2068800.0
+    2026-06-23 00:00:00 | photayote |  | 15000.0
+    2026-06-24 00:00:00 | photayote |  | 15000.0
+     | laypae+2 |  | 50000.0
+     | ßÇÖßüâßÇÜßÇ▒ßÇ¼ßÇÇßÇ║ |  | 45000.0
+    2026-06-25 00:00:00 | sale | =108000+20000+13500
+     | photayote |  | 15000.0
+     | laypae+2 |  | 50000.0
+    2026-06-26 00:00:00 | mk | 30000.0
+     | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+    2026-06-27 00:00:00 | lapyae+2 |  | 50000.0
+     | niniwin |  | 50000.0
+     | photayote |  | 15000.0
+     | sale | 277000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 400000.0
+    2026-06-29 00:00:00 | sale | 20000.0
+    2026-06-30 00:00:00 | lapyae+2 |  | 50000.0
+     | peeling |  | 2471000.0
+     | lapyae repay | 50000.0
+     |  | =SUM(C2:C95) | =SUM(D2:D95)
+     | balance bd | =C96-D96
+
+  --- Sheet: 'July' (rows=1001, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+    2026-06-30 00:00:00 | balance bd | 794500.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 550000.0
+    2026-07-01 00:00:00 | lapyae+2 |  | 50000.0 |  | 2026-07-01 00:00:00 | =18.5+19+9.8 | 3.18
+     | military fee |  | 5000.0 |  | 2026-07-02 00:00:00 | =9.32+9.88+8.86+9.06+9.56 | 2.82
+     | photayote |  | 15000.0 |  | 2026-07-03 00:00:00 | =17.32+17.56+11.26 | 4.02
+    2026-07-02 00:00:00 | trash | 30000.0 |  |  | 2026-07-04 00:00:00 | =18.66+13.8+18.44 | 4.64
+     | lapyae+2 |  | 50000.0 |  | 2026-07-07 00:00:00 | =18.76+18.58+9.62-0.18 | =3.18-0.06
+     | photayote |  | 15000.0 |  | 2026-07-08 00:00:00 | =18.94-0.28+19.18-0.3+9.24-0.3 | 3.1
+    2026-07-03 00:00:00 | lapyae+2 |  | 50000.0 |  | 2026-07-09 00:00:00 | =18.9-0.06+18.78-0.1+9.38-0.1 | =2.84-0.1
+     | photayote |  | 15000.0
+    2026-07-04 00:00:00 | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+    2026-07-06 00:00:00 | photayote |  | 15000.0
+    2026-07-07 00:00:00 | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+     | sale | 20000.0
+    2026-07-08 00:00:00 | lapyae+2 |  | 50000.0
+     | photayote |  | 15000.0
+     | sale | 20000.0
+     | trash | 30000.0
+    2026-07-09 00:00:00 | photayote |  | 15000.0
+     | lapyae+2 |  | 50000.0
+     | ßÇÖßÇ»ßÇößÇÀßÇ║ßÇåßÇ¡ßÇ»ßÇäßÇ║ßÇ×ßÇ¢ßÇäßÇ║ßÇ© | 1000000.0
+
+  --- Sheet: 'August' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+
+  --- Sheet: 'September' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+
+  --- Sheet: 'October' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+
+  --- Sheet: 'November' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+
+  --- Sheet: 'December' (rows=1000, cols=26) ---
+    Cash Book
+    Date | Description | Cash In | Cash Out
+
+======================================================================
+FILE: Cashew to MK Store 2026.xlsx
+======================================================================
+
+  --- Sheet: 'January' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+    2026-01-02 00:00:00 |  | 40.0 |  |  |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 65000.0
+    2026-01-03 00:00:00 |  | 20.0 | 4.0 | 4.0 |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 50000.0
+    2026-01-06 00:00:00 | 5.0 | 40.0 |  | 4.0 | 6.0 |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 372000.0
+    2026-01-07 00:00:00 |  | 40.0 | 4.0 | 1.0 |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 312000.0
+    2026-01-08 00:00:00 | 20.0 | 20.0 | 2.0 | 2.0 |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | 35000.0
+    2026-01-10 00:00:00 | 10.0 | 20.0 | 2.0 |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 20000.0
+    2026-01-14 00:00:00 | 40.0 | 25.0 | 1.0 |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 50000.0
+    2026-01-15 00:00:00 | 5.0 | 35.0 | 3.0 | 3.0
+    2026-01-16 00:00:00 |  | 25.0 | 2.0 |  | 10.0
+    2026-01-17 00:00:00 | 15.0 | 25.0
+    2026-01-20 00:00:00 | =0.2*50 | 20.0 | 3.0 | 2.0
+    2026-01-22 00:00:00 | =0.2*10
+    2026-01-23 00:00:00 | 20.0 | 50.0 | 1.0
+    2026-01-26 00:00:00 | 10.0 | 25.0 | 3.0 | 3.0
+    2026-01-27 00:00:00 |  | 25.0
+    2026-01-29 00:00:00 | 15.0 | 35.0 | 2.0 | 2.0
+    2026-01-30 00:00:00 |  |  | 2.0 | 2.0
+    2026-01-31 00:00:00 | 15.0 | 30.0 | 2.0 | 2.0 | 9.0
+     | =SUM(B3:B20) | =SUM(C3:C20) | =SUM(D3:D20) | =SUM(E3:E20) | =SUM(F3:F20)
+     |  |  | total | =B21*K3+C21*K4+D21*K5+E21*K6+F21*K7
+
+  --- Sheet: 'February' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+    2026-02-02 00:00:00 | =0.2*40 | 30.0 |  |  |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 65000.0
+    2026-02-04 00:00:00 | =0.2*37 |  |  |  |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 50000.0
+    2026-02-05 00:00:00 |  | 40.0 |  |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 372000.0
+    2026-02-06 00:00:00 | =0.2*100 |  | 4.0 | 8.0 |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 312000.0
+    2026-02-07 00:00:00 |  | 40.0 | 3.0 |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | 35000.0
+    2026-02-09 00:00:00 | 20.0 | 10.0 |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 20000.0
+    2026-02-10 00:00:00 |  | 40.0 |  |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 50000.0
+    2026-02-11 00:00:00 |  | 40.0 | 4.0 | 2.0
+    2026-02-14 00:00:00 | 5.0 | 20.0
+    2026-02-16 00:00:00 | 15.0 | 30.0 | 5.0 | 2.0
+    2026-02-18 00:00:00 | 27.0 | 15.0
+    2026-02-19 00:00:00 |  | 30.0 |  | 2.0
+    2026-02-20 00:00:00 | =0.2*60 | 30.0
+    2026-02-21 00:00:00 | 45.0 | 45.0 | 3.0 | 3.0
+    2026-02-23 00:00:00 |  | 80.0
+    2026-02-24 00:00:00 |  | 40.0 |  |  | 13.0
+    2026-02-25 00:00:00 | 10.0 | 20.0 | 1.0 | 1.0
+    2026-02-26 00:00:00 |  | 30.0
+    2026-02-27 00:00:00 |  | 30.0 | 2.0 |  |  | 15.0
+    2026-02-28 00:00:00 |  | 40.0 | 2.0 | 2.0 | 10.0
+     | =SUM(B3:B22) | =SUM(C3:C22) | =SUM(D5:D22) | =SUM(E6:E22) | =SUM(F18:F22) | 15.0
+     |  |  | total | =B23*K3+C23*K4+D23*K5+E23*K6+F23*K7+G23*K8
+
+  --- Sheet: 'March' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+    2026-03-01 00:00:00 |  |  |  |  |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 65000.0
+    2026-03-03 00:00:00 | 10.0 | 70.0 | 3.0 | 3.0 |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 50000.0
+    2026-03-04 00:00:00 |  | 30.0 |  |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | =12400*30
+    2026-03-06 00:00:00 | 42.0 | 75.0 |  |  |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | =10400*30
+    2026-03-09 00:00:00 |  | 10.0 | 2.0 | 2.0 |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | 35000.0
+    2026-03-10 00:00:00 | 20.0 | 30.0 |  | 4.0 | 16.0 |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 20000.0
+    2026-03-11 00:00:00 | 18.0 | 30.0 | 4.0 |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 50000.0
+    2026-03-13 00:00:00 | =0.25*17+15 | 30.0 | 2.0 | 2.0
+    2026-03-14 00:00:00 |  | 40.0 |  |  | 15.0
+    2026-03-16 00:00:00 |  |  |  |  | 15.0
+    2026-03-17 00:00:00 | 26.6 | 80.0 | 3.0 | 3.0
+    2026-03-18 00:00:00 |  | 11.0 |  |  | 20.0 | 10.0
+    2026-03-20 00:00:00 |  | 45.0 |  |  | 10.0
+    2026-03-21 00:00:00 |  | 15.0
+    2026-03-23 00:00:00 |  | 40.0 |  |  | 15.0
+    2026-03-24 00:00:00 |  | 30.0 |  | 2.0
+    2026-03-26 00:00:00 |  | 50.0 | 4.0 | 4.0 | 10.0
+    2026-03-30 00:00:00 | =0.2*60 | 70.0
+     | =SUM(B4:B20) | =SUM(C4:C20) | =SUM(D4:D20) | =SUM(E4:E20) | =SUM(F7:F20) | 10.0
+     |  |  | total | =B21*K3+C21*K4+D21*K5+E21*K6+F21*K7+G21*K8
+
+  --- Sheet: 'April' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+    2026-04-01 00:00:00 | 20.0 | =0.25*15+35 | 3.0 | 1.0 |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 65000.0
+    2026-04-02 00:00:00 | =0.2*40 | 30.0 |  |  |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 52000.0
+    2026-04-03 00:00:00 | 5.0 | 10.0 | 3.0 |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 372000.0
+    2026-04-04 00:00:00 | =15+8 | 75.0 | 3.0 | 3.0 |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 312000.0
+    2026-04-06 00:00:00 |  | 10.0 |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | 35000.0
+    2026-04-07 00:00:00 |  | 15.0 |  |  |  |  | 2.0 |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 20000.0
+    2026-04-08 00:00:00 |  | 15.0 |  |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 50000.0
+    2026-04-09 00:00:00 | 30.0 | 10.0 | 3.0 |  | 20.0
+    2026-04-10 00:00:00 | =18+16 | 60.0 | 5.0 | 3.0 | 5.0
+    2026-04-20 00:00:00 | 30.0 | 20.0 | 3.0 | 3.0
+    2026-04-21 00:00:00 |  | 20.0 | 6.0 |  | 40.0
+    2026-04-23 00:00:00 |  | 22.5 |  | 4.0
+    2026-04-24 00:00:00 | =0.2*100+30 | 60.0
+    2026-04-25 00:00:00 |  |  | 3.0
+    2026-04-27 00:00:00 |  | 80.0
+    2026-04-28 00:00:00 | =0.2*18 | 35.0 | 5.0 | 5.0
+     | =SUM(B3:B18) | =SUM(C3:C18) | =SUM(D3:D18) | =SUM(E3:E18) | =SUM(F10:F18)
+     |  |  | total | =B19*K3+C19*K4+D19*K5+E19*K6+F19*K7+H8*K9
+
+  --- Sheet: 'May' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+    2026-05-02 00:00:00 | =0.2*53 |  |  |  | 20.0 |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 65000.0
+    2026-05-06 00:00:00 | 30.0 | 30.0 |  |  |  |  |  | 53.0 | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 52000.0
+    2026-05-07 00:00:00 | =0.2*40 |  | 4.0 |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 372000.0
+    2026-05-08 00:00:00 | 22.0 | 20.0 | 2.0 | 2.0 |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 312000.0
+    2026-05-11 00:00:00 | =0.2*53 |  | 3.0 | 3.0 | 20.0 |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | 35000.0
+    2026-05-13 00:00:00 | 31.0 | 50.0 | 4.0 | 2.0 |  | 5.0 |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 20000.0
+    2026-05-14 00:00:00 | =0.2*40 |  | 16.0 | 50.0 |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 50000.0
+    2026-05-15 00:00:00 |  |  | 3.0
+    2026-05-16 00:00:00 | 10.0 |  |  | 4.0
+    2026-05-20 00:00:00 | 30.0 | 30.0 | 3.0 | 3.0
+    2026-05-23 00:00:00 | 10.0 | 20.0 | 2.0
+    2026-05-26 00:00:00 |  | 20.0 | 3.0
+    2026-05-28 00:00:00 |  | 9.5
+    2026-05-29 00:00:00 |  | 30.0
+     | =SUM(B3:B16) | =SUM(C4:C16) | =SUM(D5:D14) | =SUM(E6:E13) | =SUM(F3:F7)
+     |  |  | total | =SUM(B17*K3+C17*K4+D17*K5+E17*K6+F17*K7+G8*K8)
+
+  --- Sheet: 'June' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+    2026-06-01 00:00:00 | =0.2*80 | 30.0 | 7.0 | 9.0 |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 67000.0
+    2026-06-03 00:00:00 | 10.0 |  | 4.0 |  | 15.0 |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 52000.0
+    2026-06-04 00:00:00 | 10.0 |  |  | 2.0 |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 372000.0
+    2026-06-06 00:00:00 |  | 40.0 |  |  |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 312000.0
+    2026-06-08 00:00:00 | 10.0 | 20.0 | 1.0 |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | 35000.0
+    2026-06-09 00:00:00 |  |  |  |  | 10.0 |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 20000.0
+    2026-06-13 00:00:00 | =7.5+16 | 30.0 | 5.0 | 1.0 |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 50000.0
+    2026-06-16 00:00:00 | 20.0 | 20.0 | 2.0 | 2.0 | 5.0
+    2026-06-20 00:00:00 |  | 40.0
+    2026-06-22 00:00:00 |  |  | 3.0 | 3.0
+    2026-06-23 00:00:00 | 4.0 |  | 3.0 | 2.0
+    2026-06-26 00:00:00 | 10.0 | 20.0 | 2.0
+    2026-06-27 00:00:00 | 30.0 | 60.0 | 3.0 | 3.0 | 13.0 | 6.0
+     | =SUM(B2:B15) | =SUM(C2:C15) | =SUM(D2:D15) | =SUM(E2:E15) | =SUM(F2:F15) | =SUM(G2:G15)
+     |  | total | =B16*K3+C16*K4+D16*K5+E16*K6+F16*K7+G16*K8
+
+  --- Sheet: 'July' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+    2026-07-03 00:00:00 | 40.0 |  | 4.0 | 4.0 |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 67000.0
+    2026-07-04 00:00:00 |  | 30.0 |  |  |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 52000.0
+    2026-07-07 00:00:00 |  | 40.0 | 5.0 |  | 15.0 |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 372000.0
+    2026-07-08 00:00:00 | 67.0 |  |  |  |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 312000.0
+    2026-07-09 00:00:00 | 10.0 | 40.0 | 2.0 | 2.0 |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | 35000.0
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 20000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 50000.0
+
+  --- Sheet: 'October' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+     |  |  |  |  |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 36000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 32000.0
+     |  |  |  |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 6900.0
+     |  |  |  |  |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 5900.0
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 8000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 20000.0
+
+  --- Sheet: 'August' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+     |  |  |  |  |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 36000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 32000.0
+     |  |  |  |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 6900.0
+     |  |  |  |  |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 5900.0
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 8000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 20000.0
+
+  --- Sheet: 'September' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+     |  |  |  |  |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 36000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 32000.0
+     |  |  |  |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 6900.0
+     |  |  |  |  |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 5900.0
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 8000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 20000.0
+
+  --- Sheet: 'November' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+     |  |  |  |  |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 36000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 32000.0
+     |  |  |  |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 6900.0
+     |  |  |  |  |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 5900.0
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 8000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 20000.0
+
+  --- Sheet: 'December' (rows=1000, cols=26) ---
+    Cashew to MK Store
+    Date | ßÇíßÇ£ßÇ»ßÇÂßÇ© | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2 | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© |  |  | Prices
+     |  |  |  |  |  |  |  |  | ßÇíßÇ£ßÇ»ßÇÂßÇ© | 36000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇüßÇ╝ßÇÖßÇ║ßÇ© | 32000.0
+     |  |  |  |  |  |  |  |  | ßÇòßÇ╝ßÇ¼ßÇÉßÇ¢ßÇ▓ | 6900.0
+     |  |  |  |  |  |  |  |  | ßÇàßÇ¡ßÇÖßÇ║ßÇ©ßÇÉßÇ¢ßÇ▓ | 5900.0
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 2
+     |  |  |  |  |  |  |  |  | ßÇüßÇ╝ßÇÖßÇ║ßÇ© 3 | 8000.0
+     |  |  |  |  |  |  |  |  | ßÇíßÇØßÇ½ßÇ£ßÇ»ßÇÂßÇ© | 20000.0
