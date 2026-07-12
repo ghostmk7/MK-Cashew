@@ -33,11 +33,14 @@ export function NumInput({ value, onCommit, w = 68 }) {
   );
 }
 
-export function FormulaInput({ value, onCommit, w = 180 }) {
+export function FormulaInput({ value, onCommit, w = "100%" }) {
   const [local, setLocal] = useState(value ?? "");
+  const [isEditing, setIsEditing] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  
   useEffect(() => setLocal(value ?? ""), [value]);
 
-  let computed = "";
+  let computed = local;
   if (typeof local === 'string' && /^[\d\.\+\-\s]+$/.test(local)) {
     try {
       const res = new Function('return ' + local)();
@@ -45,20 +48,46 @@ export function FormulaInput({ value, onCommit, w = 180 }) {
     } catch (e) {}
   }
 
-  return (
-    <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+  if (isEditing) {
+    return (
       <input
         type="text"
         inputMode="decimal"
         value={local}
         style={{ ...ST.input, width: w }}
+        autoFocus
         onChange={e => setLocal(e.target.value)}
         onBlur={() => {
+          setIsEditing(false);
           if (String(local) !== String(value ?? "")) onCommit(local);
         }}
       />
-      {computed !== "" && /[+\-]/.test(local) && (
-        <span style={{ fontWeight: 600, color: "#1B8A5A", fontSize: 14 }}>= {computed}</span>
+    );
+  }
+
+  const hasMath = typeof local === 'string' && /[+\-]/.test(local);
+
+  return (
+    <div 
+      style={{ 
+        ...ST.input, width: w, cursor: "pointer", position: "relative", 
+        minHeight: 28, display: "flex", alignItems: "center", justifyContent: "flex-end" 
+      }}
+      onClick={() => setIsEditing(true)}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      <span style={{ fontWeight: hasMath ? 600 : "normal", color: hasMath ? "#1B8A5A" : "inherit" }}>
+        {computed !== "" ? computed : ""}
+      </span>
+      {isHovered && hasMath && (
+        <div style={{ 
+          position: "absolute", top: -24, right: 0, background: "#17181C", color: "#fff", 
+          padding: "2px 8px", borderRadius: 4, fontSize: 11, whiteSpace: "nowrap", 
+          zIndex: 100, pointerEvents: "none" 
+        }}>
+          {local}
+        </div>
       )}
     </div>
   );
