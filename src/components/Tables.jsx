@@ -34,7 +34,7 @@ export function PeelerTable({ workers, computed, rates, onEdit }) {
                   <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
                     <div style={{ fontWeight: 600 }}>{w.name}{w.grade && <span style={ST.gradeTag}>×{w.grade}</span>}</div>
                     <div style={{ fontSize: 10, color: "#9A9A93", fontFamily: "'IBM Plex Mono', monospace" }}>
-                      Raw Bal: {r.rawCarryIn ? r.rawCarryIn.toFixed(2) : 0} viss
+                      Pending Raw: {r.rawCarryIn ? r.rawCarryIn.toFixed(2) : 0} viss
                     </div>
                     <RawTakenNote value={r.rawMaterialTaken ?? ""} onCommit={v => onEdit(w.id, "rawMaterialTaken", v, w.name)} />
                   </div>
@@ -290,7 +290,7 @@ export function MobileEditModal({ worker, section, day, rates, onClose, onEdit }
               <div style={ST.mobileModalMeta}>
                 Carry in: {fmt(row.carryOver)} · Payroll: {fmt(row.payrollAmount)} MMK
                 <div style={{ marginTop: 6, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <span>Raw Bal: {row.rawCarryIn ? row.rawCarryIn.toFixed(2) : 0} viss</span>
+                  <span>Pending Raw: {row.rawCarryIn ? row.rawCarryIn.toFixed(2) : 0} viss</span>
                   <RawTakenNote value={row.rawMaterialTaken ?? ""} onCommit={v => onEdit("rawMaterialTaken", v)} />
                 </div>
               </div>

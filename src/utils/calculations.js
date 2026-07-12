@@ -75,8 +75,8 @@ export function computeAll(rawDays, workers, settings) {
 
         const rawCarryIn = workerRawBalances[id] || 0;
         const taken = parseFloat(raw.rawMaterialTaken) || 0;
-        const processed = parseFloat(raw.amountTaken) || 0;
-        const rawChangeForNextDay = rawCarryIn + taken - processed;
+        const isPaid = !isNaN(paid) && paid > 0;
+        const rawChangeForNextDay = (isPaid ? 0 : rawCarryIn) + taken;
 
         peelersComputed[id] = { ...raw, carryOver, ...calc, changeForNextDay, rawCarryIn, rawChangeForNextDay };
         workerBalances[id] = changeForNextDay;
