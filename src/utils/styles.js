@@ -19,7 +19,7 @@ export const ST = {
   pastNotice: { background: "#FBF3D9", border: "1px solid #E9D896", color: "#7A5C00", fontSize: 13, padding: "8px 14px", borderRadius: 8, marginBottom: 14 },
 
   segControl: { display: "inline-flex", background: "#EDECE7", borderRadius: 10, padding: 3, marginBottom: 16 },
-  segBtn: { padding: "7px 16px", border: "none", background: "none", borderRadius: 8, fontSize: 13, fontWeight: 600, color: "#6E7079", cursor: "pointer" },
+  segBtn: { padding: "7px 16px", border: "none", background: "none", borderRadius: 8, fontSize: 13, fontWeight: 600, color: "#6E7079", cursor: "pointer", outline: "none", WebkitTapHighlightColor: "transparent" },
   segBtnActive: { background: "#fff", color: "#17181C", boxShadow: "0 1px 2px rgba(0,0,0,0.08)" },
 
   statsRow: { display: "flex", gap: 10, marginBottom: 16, flexWrap: "wrap" },

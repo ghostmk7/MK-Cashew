@@ -85,7 +85,7 @@ export function EntryTab({
           <div style={{ ...ST.card2, marginTop: 24 }}>
             <h3 style={ST.cardTitle}>Divider Production (Day Total)</h3>
             <div style={{ display: "flex", gap: isMobile ? 10 : 16, flexDirection: isMobile ? "column" : "row" }}>
-              <div style={{ flex: "1 1 140px" }}>
+              <div style={{ flex: isMobile ? "none" : "1 1 140px", width: "100%" }}>
                 <div style={ST.mobileLabel}>Fulls (viss)</div>
                 <FormulaInput 
                   value={day.dividerProduction?.fulls ?? ""} 
@@ -93,7 +93,7 @@ export function EntryTab({
                   w="100%"
                 />
               </div>
-              <div style={{ flex: "1 1 140px" }}>
+              <div style={{ flex: isMobile ? "none" : "1 1 140px", width: "100%" }}>
                 <div style={ST.mobileLabel}>Halfs (viss)</div>
                 <FormulaInput 
                   value={day.dividerProduction?.halfs ?? ""} 
