@@ -59,7 +59,11 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
   async function handlePush() {
     if (!syncUrl) return alert("Please enter the Google Apps Script Web App URL first.");
     setSyncStatus("Pushing to cloud...");
-    const res = await pushToCloud(syncUrl, store);
+    
+    // Auto-save the URL to store before pushing so it persists
+    setStore(s => ({ ...s, settings: { ...s.settings, syncUrl } }));
+    
+    const res = await pushToCloud(syncUrl, { ...store, settings: { ...store.settings, syncUrl } });
     if (res.success) {
       setSyncStatus("✓ Pushed successfully!");
     } else {
@@ -72,9 +76,17 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
     if (!syncUrl) return alert("Please enter the Google Apps Script Web App URL first.");
     if (!confirm("This will OVERWRITE your local data with the cloud data. Are you sure?")) return;
     setSyncStatus("Pulling from cloud...");
+    
+    // Auto-save the URL to store so it isn't erased if the cloud backup doesn't have it
+    setStore(s => ({ ...s, settings: { ...s.settings, syncUrl } }));
+    
     const res = await pullFromCloud(syncUrl);
     if (res.success && res.data && res.data.rawDays) {
-      setStore(res.data);
+      // Ensure the URL stays even after overwriting store
+      const newData = res.data;
+      if (!newData.settings) newData.settings = {};
+      newData.settings.syncUrl = syncUrl;
+      setStore(newData);
       setSyncStatus("✓ Pulled successfully!");
     } else {
       setSyncStatus("❌ Error pulling data.");
