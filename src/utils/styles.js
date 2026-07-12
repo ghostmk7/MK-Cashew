@@ -11,9 +11,9 @@ export const ST = {
   dayScroll: { display: "flex", gap: 6, overflowX: "auto", flex: 1 },
   dayChip: { flexShrink: 0, padding: "6px 12px", borderRadius: 20, border: "1px solid #E4E4E0", background: "#fff", color: "#6E7079", fontSize: 12.5, fontFamily: "'IBM Plex Mono', monospace", cursor: "pointer" },
   dayChipActive: { background: "#0B6E4F", borderColor: "#0B6E4F", color: "#fff" },
-  tabBar: { display: "flex", borderTop: "1px solid #E4E4E0", gap: 4, padding: "0", overflowX: "auto" },
-  tabBtn: { padding: "10px 18px", background: "none", border: "none", borderBottom: "2px solid transparent", color: "#6E7079", fontWeight: 600, fontSize: 13, cursor: "pointer", whiteSpace: "nowrap", outline: "none", WebkitTapHighlightColor: "transparent" },
-  tabBtnActive: { color: "#0B6E4F", borderBottomColor: "#0B6E4F" },
+  tabBar: { display: "flex", borderTop: "1px solid #E4E4E0", gap: 6, padding: "12px 0", overflowX: "auto" },
+  tabBtn: { padding: "8px 16px", background: "none", border: "none", color: "#6E7079", fontWeight: 600, fontSize: 13, cursor: "pointer", whiteSpace: "nowrap", outline: "none", WebkitTapHighlightColor: "transparent", borderRadius: 20 },
+  tabBtnActive: { color: "#0B6E4F", background: "#E7F3EF" },
   main: { padding: "16px 20px 60px", maxWidth: 1100, margin: "0 auto" },
 
   pastNotice: { background: "#FBF3D9", border: "1px solid #E9D896", color: "#7A5C00", fontSize: 13, padding: "8px 14px", borderRadius: 8, marginBottom: 14 },
