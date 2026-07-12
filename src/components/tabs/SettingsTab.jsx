@@ -138,7 +138,7 @@ export function SettingsTab({ settings, workers, auditLog, setStore, store, days
         <div style={{ ...ST.note, marginTop: 0, marginBottom: 12 }}>Paste your Google Apps Script Web App URL here to sync data to the cloud.</div>
         <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
           <input 
-            type="text" 
+            type="password" 
             value={syncUrl} 
             onChange={e => setSyncUrl(e.target.value)} 
             placeholder="https://script.google.com/macros/s/.../exec"
