@@ -3,7 +3,7 @@ import { ST } from '../../utils/styles';
 import { fmt } from '../../utils/formatting';
 import { NumInput } from '../Inputs';
 
-export function CashBookTab({ days, settings, onEditDayLevel }) {
+export function CashBookTab({ days, settings, onEditDayLevel, isMobile }) {
   const [editingId, setEditingId] = useState(null);
   let runningBalance = settings?.cashBookOpening || 0;
   
@@ -14,74 +14,56 @@ export function CashBookTab({ days, settings, onEditDayLevel }) {
         <span>Opening Balance</span>
         <span style={{ fontFamily: "'IBM Plex Mono', monospace" }}>{fmt(runningBalance)} MMK</span>
       </div>
-      <div style={ST.tableWrap}>
-        <table style={ST.table}>
-          <thead>
-            <tr>
-              <th style={{ ...ST.th, textAlign: "left" }}>Date</th>
-              <th style={{ ...ST.th, textAlign: "left" }}>Description</th>
-              <th style={ST.th}>Cash In</th>
-              <th style={ST.th}>Cash Out</th>
-              <th style={ST.th}>Balance</th>
-              <th style={ST.th}>Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            {days.map((d, dayIdx) => {
-              const peelPaid = Object.values(d.peelersComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
-              const genPaid = Object.values(d.generalComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
-              const divPaid = Object.values(d.dividersComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
-              const autoPaid = peelPaid + genPaid + divPaid;
+      {isMobile ? (
+        <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
+          {days.map((d, dayIdx) => {
+            const peelPaid = Object.values(d.peelersComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
+            const genPaid = Object.values(d.generalComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
+            const divPaid = Object.values(d.dividersComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
+            const autoPaid = peelPaid + genPaid + divPaid;
 
-              const customEntries = d.cashBook || [];
-              
-              const rows = [];
-              if (autoPaid > 0) {
-                runningBalance -= autoPaid;
-                rows.push({ isAuto: true, desc: "Payroll Auto-Payout", outAmt: autoPaid, inAmt: null, bal: runningBalance });
-              }
-              
-              customEntries.forEach(e => {
-                const amt = parseFloat(e.amount) || 0;
-                if (e.type === "in") runningBalance += amt;
-                else runningBalance -= amt;
-                rows.push({ isCustom: true, id: e.id, desc: e.desc, type: e.type, amt: amt, inAmt: e.type === "in" ? amt : null, outAmt: e.type === "out" ? amt : null, bal: runningBalance });
-              });
+            const customEntries = d.cashBook || [];
+            
+            const rows = [];
+            if (autoPaid > 0) {
+              runningBalance -= autoPaid;
+              rows.push({ isAuto: true, desc: "Payroll Auto-Payout", outAmt: autoPaid, inAmt: null, bal: runningBalance });
+            }
+            
+            customEntries.forEach(e => {
+              const amt = parseFloat(e.amount) || 0;
+              if (e.type === "in") runningBalance += amt;
+              else runningBalance -= amt;
+              rows.push({ isCustom: true, id: e.id, desc: e.desc, type: e.type, amt: amt, inAmt: e.type === "in" ? amt : null, outAmt: e.type === "out" ? amt : null, bal: runningBalance });
+            });
 
-              if (rows.length === 0) {
-                rows.push({ isEmpty: true, desc: "No transactions", inAmt: null, outAmt: null, bal: runningBalance });
-              }
+            if (rows.length === 0) {
+              rows.push({ isEmpty: true, desc: "No transactions", inAmt: null, outAmt: null, bal: runningBalance });
+            }
 
-              return (
-                <Fragment key={d.date}>
+            return (
+              <div key={d.date} style={{ border: "1px solid #E4E4E0", borderRadius: 8, padding: 12, backgroundColor: "#fff" }}>
+                <div style={{ fontWeight: 600, marginBottom: 12, fontSize: 14, borderBottom: "1px solid #E4E4E0", paddingBottom: 8 }}>{d.date}</div>
+                <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
                   {rows.map((r, idx) => {
                     if (editingId === r.id) {
-                      return (
-                        <tr key={idx} style={ST.rowEven}>
-                          <td colSpan={6} style={{ ...ST.td, textAlign: "left" }}>
-                            <EditCashBookEntry 
-                              entry={r} 
-                              currentEntries={customEntries} 
-                              dayIdx={dayIdx} 
-                              onEditDayLevel={onEditDayLevel} 
-                              onClose={() => setEditingId(null)} 
-                            />
-                          </td>
-                        </tr>
-                      );
+                      return <EditCashBookEntry key={idx} entry={r} currentEntries={customEntries} dayIdx={dayIdx} onEditDayLevel={onEditDayLevel} onClose={() => setEditingId(null)} />;
                     }
                     return (
-                      <tr key={idx} style={ST.rowEven}>
-                        <td style={{ ...ST.td, textAlign: "left" }}>{d.date}</td>
-                        <td style={{ ...ST.td, textAlign: "left", color: r.isAuto || r.isEmpty ? "#9A9A93" : "#17181C", fontStyle: r.isEmpty ? "italic" : "normal" }}>{r.desc}</td>
-                        <td style={{ ...ST.td, color: "#1B8A5A" }}>{r.inAmt ? fmt(r.inAmt) : "—"}</td>
-                        <td style={{ ...ST.td, color: "#C0392B" }}>{r.outAmt ? fmt(r.outAmt) : "—"}</td>
-                        <td style={{ ...ST.td, fontWeight: 600 }}>{fmt(r.bal)}</td>
-                        <td style={ST.td}>
+                      <div key={idx} style={{ display: "flex", flexDirection: "column", gap: 4, paddingBottom: 8, borderBottom: idx < rows.length - 1 ? "1px dashed #E4E4E0" : "none" }}>
+                        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start" }}>
+                          <span style={{ color: r.isAuto || r.isEmpty ? "#9A9A93" : "#17181C", fontStyle: r.isEmpty ? "italic" : "normal", fontSize: 14, flex: 1 }}>{r.desc}</span>
+                          <span style={{ fontWeight: 600, fontSize: 13 }}>{fmt(r.bal)}</span>
+                        </div>
+                        <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13, alignItems: "center", minHeight: 24 }}>
+                          <span>
+                            {r.inAmt ? <span style={{ color: "#1B8A5A", fontWeight: 500 }}>+ {fmt(r.inAmt)}</span> : null}
+                            {r.outAmt ? <span style={{ color: "#C0392B", fontWeight: 500 }}>- {fmt(r.outAmt)}</span> : null}
+                          </span>
                           {r.isCustom && (
-                            <div style={{ display: "flex", gap: 4, justifyContent: "flex-end" }}>
-                              <button style={ST.wcToggle} onClick={() => setEditingId(r.id)}>Edit</button>
-                              <button style={ST.wcToggle} onClick={() => {
+                            <div style={{ display: "flex", gap: 8 }}>
+                              <button style={{...ST.wcToggle, padding: "2px 8px", fontSize: 12}} onClick={() => setEditingId(r.id)}>Edit</button>
+                              <button style={{...ST.wcToggle, padding: "2px 8px", fontSize: 12}} onClick={() => {
                                 if (window.confirm("Delete entry?")) {
                                   const nextBook = customEntries.filter(x => x.id !== r.id);
                                   onEditDayLevel(dayIdx, null, nextBook);
@@ -89,22 +71,111 @@ export function CashBookTab({ days, settings, onEditDayLevel }) {
                               }}>Del</button>
                             </div>
                           )}
-                        </td>
-                      </tr>
+                        </div>
+                      </div>
                     );
                   })}
-                  <tr style={ST.rowOdd}>
-                    <td style={{ ...ST.td, textAlign: "left", borderBottom: "2px solid #E4E4E0" }}></td>
-                    <td colSpan={5} style={{ ...ST.td, textAlign: "left", borderBottom: "2px solid #E4E4E0" }}>
-                      <AddCashBookEntry dayIdx={dayIdx} currentEntries={customEntries} onEditDayLevel={onEditDayLevel} />
-                    </td>
-                  </tr>
-                </Fragment>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
+                </div>
+                <div style={{ marginTop: 12, paddingTop: 12, borderTop: "2px solid #E4E4E0" }}>
+                  <AddCashBookEntry dayIdx={dayIdx} currentEntries={customEntries} onEditDayLevel={onEditDayLevel} />
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        <div style={ST.tableWrap}>
+          <table style={ST.table}>
+            <thead>
+              <tr>
+                <th style={{ ...ST.th, textAlign: "left" }}>Date</th>
+                <th style={{ ...ST.th, textAlign: "left" }}>Description</th>
+                <th style={ST.th}>Cash In</th>
+                <th style={ST.th}>Cash Out</th>
+                <th style={ST.th}>Balance</th>
+                <th style={ST.th}>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {days.map((d, dayIdx) => {
+                const peelPaid = Object.values(d.peelersComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
+                const genPaid = Object.values(d.generalComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
+                const divPaid = Object.values(d.dividersComputed || {}).reduce((s, r) => s + (parseFloat(r.amountPaid) || 0), 0);
+                const autoPaid = peelPaid + genPaid + divPaid;
+
+                const customEntries = d.cashBook || [];
+                
+                const rows = [];
+                if (autoPaid > 0) {
+                  runningBalance -= autoPaid;
+                  rows.push({ isAuto: true, desc: "Payroll Auto-Payout", outAmt: autoPaid, inAmt: null, bal: runningBalance });
+                }
+                
+                customEntries.forEach(e => {
+                  const amt = parseFloat(e.amount) || 0;
+                  if (e.type === "in") runningBalance += amt;
+                  else runningBalance -= amt;
+                  rows.push({ isCustom: true, id: e.id, desc: e.desc, type: e.type, amt: amt, inAmt: e.type === "in" ? amt : null, outAmt: e.type === "out" ? amt : null, bal: runningBalance });
+                });
+
+                if (rows.length === 0) {
+                  rows.push({ isEmpty: true, desc: "No transactions", inAmt: null, outAmt: null, bal: runningBalance });
+                }
+
+                return (
+                  <Fragment key={d.date}>
+                    {rows.map((r, idx) => {
+                      if (editingId === r.id) {
+                        return (
+                          <tr key={idx} style={ST.rowEven}>
+                            <td colSpan={6} style={{ ...ST.td, textAlign: "left" }}>
+                              <EditCashBookEntry 
+                                entry={r} 
+                                currentEntries={customEntries} 
+                                dayIdx={dayIdx} 
+                                onEditDayLevel={onEditDayLevel} 
+                                onClose={() => setEditingId(null)} 
+                              />
+                            </td>
+                          </tr>
+                        );
+                      }
+                      return (
+                        <tr key={idx} style={ST.rowEven}>
+                          <td style={{ ...ST.td, textAlign: "left" }}>{d.date}</td>
+                          <td style={{ ...ST.td, textAlign: "left", color: r.isAuto || r.isEmpty ? "#9A9A93" : "#17181C", fontStyle: r.isEmpty ? "italic" : "normal" }}>{r.desc}</td>
+                          <td style={{ ...ST.td, color: "#1B8A5A" }}>{r.inAmt ? fmt(r.inAmt) : "—"}</td>
+                          <td style={{ ...ST.td, color: "#C0392B" }}>{r.outAmt ? fmt(r.outAmt) : "—"}</td>
+                          <td style={{ ...ST.td, fontWeight: 600 }}>{fmt(r.bal)}</td>
+                          <td style={ST.td}>
+                            {r.isCustom && (
+                              <div style={{ display: "flex", gap: 4, justifyContent: "flex-end" }}>
+                                <button style={ST.wcToggle} onClick={() => setEditingId(r.id)}>Edit</button>
+                                <button style={ST.wcToggle} onClick={() => {
+                                  if (window.confirm("Delete entry?")) {
+                                    const nextBook = customEntries.filter(x => x.id !== r.id);
+                                    onEditDayLevel(dayIdx, null, nextBook);
+                                  }
+                                }}>Del</button>
+                              </div>
+                            )}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                    <tr style={ST.rowOdd}>
+                      <td style={{ ...ST.td, textAlign: "left", borderBottom: "2px solid #E4E4E0" }}></td>
+                      <td colSpan={5} style={{ ...ST.td, textAlign: "left", borderBottom: "2px solid #E4E4E0" }}>
+                        <AddCashBookEntry dayIdx={dayIdx} currentEntries={customEntries} onEditDayLevel={onEditDayLevel} />
+                      </td>
+                    </tr>
+                  </Fragment>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )}
     </div>
   );
 }

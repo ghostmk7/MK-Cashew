@@ -84,7 +84,7 @@ export function EntryTab({
           
           <div style={{ ...ST.card2, marginTop: 24 }}>
             <h3 style={ST.cardTitle}>Divider Production (Day Total)</h3>
-            <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+            <div style={{ display: "flex", gap: 16, flexDirection: isMobile ? "column" : "row" }}>
               <div style={{ flex: "1 1 140px" }}>
                 <div style={ST.mobileLabel}>Fulls (viss)</div>
                 <FormulaInput 

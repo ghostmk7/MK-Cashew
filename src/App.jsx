@@ -139,6 +139,7 @@ export default function App() {
           <CashBookTab 
             days={days} settings={settings}
             onEditDayLevel={(dayIdx, field, val) => requestEditDayLevel(dayIdx, "cashBook", field, val, "Cash Book")}
+            isMobile={isMobile}
           />
         )}
 
@@ -150,6 +151,7 @@ export default function App() {
           <StoreTab 
             days={days} settings={settings}
             onEditDayLevel={(dayIdx, field, val) => requestEditDayLevel(dayIdx, "storeTransfer", field, val, "Store Transfer")}
+            isMobile={isMobile}
           />
         )}
 
