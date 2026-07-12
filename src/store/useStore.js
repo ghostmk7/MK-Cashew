@@ -17,6 +17,7 @@ function loadState() {
       defaultRate: 3000, 
       rates: [2400, 2700, 3000], 
       openingBalances: {},
+      openingRawBalances: {},
       cashBookOpening: 0,
       storePrices: { aLoneGyi: 67000, aChan: 52000, hteikKwe: 372000, khaKyo: 312000, chan2: 35000, chan3: 20000, aThayLone: 50000 }
     } 
@@ -179,6 +180,21 @@ export function useStore() {
     setSelectedMonth(todayStr.slice(0, 7));
   }
 
+  function updateWorker(id, changes) {
+    setStore(s => {
+      const workers = s.workers.map(w => w.id === id ? { ...w, ...changes } : w);
+      return { ...s, workers };
+    });
+  }
+
+  function addWorker(worker) {
+    setStore(s => {
+      const maxId = s.workers.reduce((max, w) => Math.max(max, w.id), 0);
+      const newWorker = { ...worker, id: maxId + 1, active: true };
+      return { ...s, workers: [...s.workers, newWorker] };
+    });
+  }
+
   return {
     store, setStore,
     activeDayIdx, setActiveDayIdx,
@@ -191,6 +207,7 @@ export function useStore() {
     workers, rawDays, auditLog, settings,
     activeRates, days, months, day, isPastDay, dayIsUnlocked, activeWorkers,
     requestEdit, applyEdit, confirmPending, requestEditDayLevel, applyEditDayLevel, addNewDay,
+    updateWorker, addWorker,
     globalSyncStatus
   };
 }

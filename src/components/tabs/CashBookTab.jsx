@@ -4,6 +4,7 @@ import { fmt } from '../../utils/formatting';
 import { NumInput } from '../Inputs';
 
 export function CashBookTab({ days, settings, onEditDayLevel }) {
+  const [editingId, setEditingId] = useState(null);
   let runningBalance = settings?.cashBookOpening || 0;
   
   return (
@@ -44,7 +45,7 @@ export function CashBookTab({ days, settings, onEditDayLevel }) {
                 const amt = parseFloat(e.amount) || 0;
                 if (e.type === "in") runningBalance += amt;
                 else runningBalance -= amt;
-                rows.push({ isCustom: true, id: e.id, desc: e.desc, inAmt: e.type === "in" ? amt : null, outAmt: e.type === "out" ? amt : null, bal: runningBalance });
+                rows.push({ isCustom: true, id: e.id, desc: e.desc, type: e.type, amt: amt, inAmt: e.type === "in" ? amt : null, outAmt: e.type === "out" ? amt : null, bal: runningBalance });
               });
 
               if (rows.length === 0) {
@@ -53,25 +54,45 @@ export function CashBookTab({ days, settings, onEditDayLevel }) {
 
               return (
                 <Fragment key={d.date}>
-                  {rows.map((r, idx) => (
-                    <tr key={idx} style={ST.rowEven}>
-                      <td style={{ ...ST.td, textAlign: "left" }}>{idx === 0 ? d.date : ""}</td>
-                      <td style={{ ...ST.td, textAlign: "left", color: r.isAuto || r.isEmpty ? "#9A9A93" : "#17181C", fontStyle: r.isEmpty ? "italic" : "normal" }}>{r.desc}</td>
-                      <td style={{ ...ST.td, color: "#1B8A5A" }}>{r.inAmt ? fmt(r.inAmt) : "—"}</td>
-                      <td style={{ ...ST.td, color: "#C0392B" }}>{r.outAmt ? fmt(r.outAmt) : "—"}</td>
-                      <td style={{ ...ST.td, fontWeight: 600 }}>{fmt(r.bal)}</td>
-                      <td style={ST.td}>
-                        {r.isCustom && (
-                          <button style={ST.wcToggle} onClick={() => {
-                            if (window.confirm("Delete entry?")) {
-                              const nextBook = customEntries.filter(x => x.id !== r.id);
-                              onEditDayLevel(dayIdx, null, nextBook);
-                            }
-                          }}>Del</button>
-                        )}
-                      </td>
-                    </tr>
-                  ))}
+                  {rows.map((r, idx) => {
+                    if (editingId === r.id) {
+                      return (
+                        <tr key={idx} style={ST.rowEven}>
+                          <td colSpan={6} style={{ ...ST.td, textAlign: "left" }}>
+                            <EditCashBookEntry 
+                              entry={r} 
+                              currentEntries={customEntries} 
+                              dayIdx={dayIdx} 
+                              onEditDayLevel={onEditDayLevel} 
+                              onClose={() => setEditingId(null)} 
+                            />
+                          </td>
+                        </tr>
+                      );
+                    }
+                    return (
+                      <tr key={idx} style={ST.rowEven}>
+                        <td style={{ ...ST.td, textAlign: "left" }}>{d.date}</td>
+                        <td style={{ ...ST.td, textAlign: "left", color: r.isAuto || r.isEmpty ? "#9A9A93" : "#17181C", fontStyle: r.isEmpty ? "italic" : "normal" }}>{r.desc}</td>
+                        <td style={{ ...ST.td, color: "#1B8A5A" }}>{r.inAmt ? fmt(r.inAmt) : "—"}</td>
+                        <td style={{ ...ST.td, color: "#C0392B" }}>{r.outAmt ? fmt(r.outAmt) : "—"}</td>
+                        <td style={{ ...ST.td, fontWeight: 600 }}>{fmt(r.bal)}</td>
+                        <td style={ST.td}>
+                          {r.isCustom && (
+                            <div style={{ display: "flex", gap: 4, justifyContent: "flex-end" }}>
+                              <button style={ST.wcToggle} onClick={() => setEditingId(r.id)}>Edit</button>
+                              <button style={ST.wcToggle} onClick={() => {
+                                if (window.confirm("Delete entry?")) {
+                                  const nextBook = customEntries.filter(x => x.id !== r.id);
+                                  onEditDayLevel(dayIdx, null, nextBook);
+                                }
+                              }}>Del</button>
+                            </div>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
                   <tr style={ST.rowOdd}>
                     <td style={{ ...ST.td, textAlign: "left", borderBottom: "2px solid #E4E4E0" }}></td>
                     <td colSpan={5} style={{ ...ST.td, textAlign: "left", borderBottom: "2px solid #E4E4E0" }}>
@@ -117,6 +138,34 @@ export function AddCashBookEntry({ dayIdx, currentEntries, onEditDayLevel }) {
       <input style={ST.input} type="number" placeholder="Amount" value={amount} onChange={e => setAmount(e.target.value)} />
       <button style={{ ...ST.btnPrimary, padding: "5px 10px" }} onClick={add}>Save</button>
       <button style={{ ...ST.btnGhost, padding: "5px 10px" }} onClick={() => setAdding(false)}>Cancel</button>
+    </div>
+  );
+}
+
+export function EditCashBookEntry({ entry, currentEntries, dayIdx, onEditDayLevel, onClose }) {
+  const [desc, setDesc] = useState(entry.desc);
+  const [type, setType] = useState(entry.type);
+  const [amount, setAmount] = useState(entry.amt || "");
+  
+  function save() {
+    if (!desc || !amount) return;
+    const nextBook = currentEntries.map(e => 
+      e.id === entry.id ? { ...e, desc, type, amount: parseFloat(amount) } : e
+    );
+    onEditDayLevel(dayIdx, null, nextBook);
+    onClose();
+  }
+
+  return (
+    <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap", padding: "4px 0" }}>
+      <input style={{ ...ST.input, textAlign: "left", flex: "1 1 120px" }} placeholder="Description" value={desc} onChange={e => setDesc(e.target.value)} />
+      <select style={ST.input} value={type} onChange={e => setType(e.target.value)}>
+        <option value="in">Cash In</option>
+        <option value="out">Cash Out</option>
+      </select>
+      <input style={ST.input} type="number" placeholder="Amount" value={amount} onChange={e => setAmount(e.target.value)} />
+      <button style={{ ...ST.btnPrimary, padding: "5px 10px" }} onClick={save}>Update</button>
+      <button style={{ ...ST.btnGhost, padding: "5px 10px" }} onClick={onClose}>Cancel</button>
     </div>
   );
 }

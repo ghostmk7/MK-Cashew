@@ -30,9 +30,14 @@ export function PeelerTable({ workers, computed, rates, onEdit }) {
             const bal = r.changeForNextDay || 0;
             return (
               <tr key={w.id} style={i % 2 ? ST.rowOdd : ST.rowEven}>
-                <td style={{ ...ST.td, textAlign: "left", fontWeight: 600, verticalAlign: "top" }}>
-                  <div>{w.name}{w.grade && <span style={ST.gradeTag}>×{w.grade}</span>}</div>
-                  <RawTakenNote value={r.rawMaterialTaken ?? ""} onCommit={v => onEdit(w.id, "rawMaterialTaken", v, w.name)} />
+                <td style={{ ...ST.td, textAlign: "left" }}>
+                  <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+                    <div style={{ fontWeight: 600 }}>{w.name}{w.grade && <span style={ST.gradeTag}>×{w.grade}</span>}</div>
+                    <div style={{ fontSize: 10, color: "#9A9A93", fontFamily: "'IBM Plex Mono', monospace" }}>
+                      Raw Bal: {r.rawCarryIn ? r.rawCarryIn.toFixed(2) : 0} viss
+                    </div>
+                    <RawTakenNote value={r.rawMaterialTaken ?? ""} onCommit={v => onEdit(w.id, "rawMaterialTaken", v, w.name)} />
+                  </div>
                 </td>
                 {["amountTaken", "alonePlusAwarLone", "grade1Gotten", "rotten"].map(f => (
                   <td key={f} style={ST.td}>
@@ -284,7 +289,8 @@ export function MobileEditModal({ worker, section, day, rates, onClose, onEdit }
             {section === "peeler" && (
               <div style={ST.mobileModalMeta}>
                 Carry in: {fmt(row.carryOver)} · Payroll: {fmt(row.payrollAmount)} MMK
-                <div style={{ marginTop: 6 }}>
+                <div style={{ marginTop: 6, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <span>Raw Bal: {row.rawCarryIn ? row.rawCarryIn.toFixed(2) : 0} viss</span>
                   <RawTakenNote value={row.rawMaterialTaken ?? ""} onCommit={v => onEdit("rawMaterialTaken", v)} />
                 </div>
               </div>
@@ -380,7 +386,14 @@ export function WorkersTab({ workers, onAdd, onToggle, onEditField }) {
             <div style={ST.workerGrid}>
               {list.map(w => (
                 <div key={w.id} style={{ ...ST.workerCard, opacity: w.active === false ? 0.5 : 1 }}>
-                  <div style={ST.wcName}>{w.name}</div>
+                  <div style={{ marginBottom: 12 }}>
+                    <input
+                      style={{ ...ST.wcInput, fontWeight: 600, fontSize: 14, width: "100%", padding: "4px 8px" }}
+                      value={w.name}
+                      onChange={e => onEditField(w.id, "name", e.target.value)}
+                      placeholder="Worker Name"
+                    />
+                  </div>
                   {key === "peeler" && (
                     <div style={ST.wcRow}>
                       <span style={ST.wcLabel}>Grade</span>
